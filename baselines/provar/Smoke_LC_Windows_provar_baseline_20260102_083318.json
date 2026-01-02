@@ -1,0 +1,91 @@
+{
+  "id": "baseline_20260102_083318",
+  "project": "Smoke_LC_Windows",
+  "platform": "provar",
+  "label": "Auto",
+  "created_at": "20260102_083318",
+  "failure_count": 9,
+  "failures": [
+    {
+      "testcase": "Opportunity Edit Field Assertion.testcase",
+      "testcase_path": "tests/Regression\\04 - Lightning Console\\Standard\\Edit\\Edit Value and Label Assertion\\Opportunity Edit Field Assertion.testcase",
+      "error": "Execution failed",
+      "details": "Assertion Failed.Regmain Oauth Automation EqualTo Regmain Admin",
+      "source": "JUnit (36).xml",
+      "webBrowserType": "Chrome",
+      "projectCachePath": "workspace\\Smoke_LC_Windows\\..\\.provarCaches"
+    },
+    {
+      "testcase": "Assertion on All Cases LV- REG-5284.testcase",
+      "testcase_path": "tests/Regression\\04 - Lightning Console\\Standard\\List Views\\Cases\\Assertion on All Cases LV- REG-5284.testcase",
+      "error": "Execution failed",
+      "details": "Assertion Failed.rauto EqualTo RegAdmin",
+      "source": "JUnit (36).xml",
+      "webBrowserType": "Chrome",
+      "projectCachePath": "workspace\\Smoke_LC_Windows\\..\\.provarCaches"
+    },
+    {
+      "testcase": "Account.testcase",
+      "testcase_path": "tests/Regression\\04 - Lightning Console\\Standard\\New\\Assertions and Actions - Buttons and Labels\\Account.testcase",
+      "error": "Execution failed",
+      "details": "The control was not found.  Locator: By.xpath: //div[contains(@class,'listButtons') or contains(@class,'listHeader')]//input[@name='new' or (contains(@name,'__new') and not(substring-after(@name,'__new')))]",
+      "source": "JUnit (36).xml",
+      "webBrowserType": "Chrome",
+      "projectCachePath": "workspace\\Smoke_LC_Windows\\..\\.provarCaches"
+    },
+    {
+      "testcase": "Contact.testcase",
+      "testcase_path": "tests/Regression\\04 - Lightning Console\\Standard\\New\\Assertions and Actions - Buttons and Labels\\Contact.testcase",
+      "error": "Execution failed",
+      "details": "The control was not found.  Locator: By.xpath: //div[contains(@class,'listButtons') or contains(@class,'listHeader')]//input[@name='newContact' or @name='newcontact' or (contains(@name,'__newcontact') and not(substring-after(@name,'__newcontact')))]",
+      "source": "JUnit (36).xml",
+      "webBrowserType": "Chrome",
+      "projectCachePath": "workspace\\Smoke_LC_Windows\\..\\.provarCaches"
+    },
+    {
+      "testcase": "Opportunity.testcase",
+      "testcase_path": "tests/Regression\\04 - Lightning Console\\Standard\\New\\Assertions and Actions - Buttons and Labels\\Opportunity.testcase",
+      "error": "Execution failed",
+      "details": "The control was not found.  Locator: By.xpath: //div[contains(@class,'listButtons') or contains(@class,'listHeader')]//input[@name='new' or (contains(@name,'__new') and not(substring-after(@name,'__new')))]",
+      "source": "JUnit (36).xml",
+      "webBrowserType": "Chrome",
+      "projectCachePath": "workspace\\Smoke_LC_Windows\\..\\.provarCaches"
+    },
+    {
+      "testcase": "Opportunities New Task QA.testcase",
+      "testcase_path": "tests/Regression\\04 - Lightning Console\\Standard\\Quick Actions\\Opportunities\\Opportunities New Task QA.testcase",
+      "error": "Execution failed",
+      "details": "Assertion Failed.Regmain Oauth Automation Contains Admin",
+      "source": "JUnit (36).xml",
+      "webBrowserType": "Chrome",
+      "projectCachePath": "workspace\\Smoke_LC_Windows\\..\\.provarCaches"
+    },
+    {
+      "testcase": "AccountsSetValue.testcase",
+      "testcase_path": "tests/Regression\\04 - Lightning Console\\Standard\\RecordType\\Accounts\\AccountsSetValue.testcase",
+      "error": "Execution failed",
+      "details": "The control was not found.  Locator: By.xpath: //select[@id='p3']",
+      "source": "JUnit (36).xml",
+      "webBrowserType": "Chrome",
+      "projectCachePath": "workspace\\Smoke_LC_Windows\\..\\.provarCaches"
+    },
+    {
+      "testcase": "ContactsSetValue.testcase",
+      "testcase_path": "tests/Regression\\04 - Lightning Console\\Standard\\RecordType\\Contact\\ContactsSetValue.testcase",
+      "error": "Execution failed",
+      "details": "The control was not found.  Locator: By.xpath: //select[@id='p3']",
+      "source": "JUnit (36).xml",
+      "webBrowserType": "Chrome",
+      "projectCachePath": "workspace\\Smoke_LC_Windows\\..\\.provarCaches"
+    },
+    {
+      "testcase": "Cases_RL_RelatedCases_ViewAll_Value Column Assertions.testcase",
+      "testcase_path": "tests/Regression\\04 - Lightning Console\\Standard\\Related Lists\\Cases\\Cases_RL_Related_Cases\\Cases_RL_RelatedCases_ViewAll_Value Column Assertions.testcase",
+      "error": "Execution failed",
+      "details": "Assertion Failed.Regmain Oauth Automation EqualTo Regmain Admin",
+      "source": "JUnit (36).xml",
+      "webBrowserType": "Chrome",
+      "projectCachePath": "workspace\\Smoke_LC_Windows\\..\\.provarCaches"
+    }
+  ]
+}
