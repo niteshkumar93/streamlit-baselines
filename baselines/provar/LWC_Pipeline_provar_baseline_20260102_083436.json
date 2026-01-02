@@ -1,0 +1,217 @@
+{
+  "id": "baseline_20260102_083436",
+  "project": "LWC_Pipeline",
+  "platform": "provar",
+  "label": "Auto",
+  "created_at": "20260102_083436",
+  "failure_count": 23,
+  "failures": [
+    {
+      "testcase": "LightningDateTimeInput_HomePage.testcase",
+      "testcase_path": "tests/PrereleaseScripts\\LWC Lightning\\LightningDateTimeInput_HomePage.testcase",
+      "error": "Execution failed",
+      "details": "Connection exception while opening Partner connection. Connection name: LWCPrerelease, environment: <default>, authEndpoint: https://login.salesforce.com/services/Soap/u/64.0, userName: prerelease@provartesting.com, password: [supplied], securityToken: [empty]",
+      "source": "JUnit (21).xml",
+      "webBrowserType": "Chrome",
+      "projectCachePath": "workspace\\LWC_Pipeline\\..\\..\\.provarCaches"
+    },
+    {
+      "testcase": "LightningFileUpload.testcase",
+      "testcase_path": "tests/PrereleaseScripts\\LWC Lightning\\LightningFileUpload.testcase",
+      "error": "Execution failed",
+      "details": "Connection exception while opening Partner connection. Connection name: LWCPrerelease, environment: <default>, authEndpoint: https://login.salesforce.com/services/Soap/u/64.0, userName: prerelease@provartesting.com, password: [supplied], securityToken: [empty]",
+      "source": "JUnit (21).xml",
+      "webBrowserType": "Chrome",
+      "projectCachePath": "workspace\\LWC_Pipeline\\..\\..\\.provarCaches"
+    },
+    {
+      "testcase": "LightningLayout&LayoutItem.testcase",
+      "testcase_path": "tests/PrereleaseScripts\\LWC Lightning\\LightningLayout&LayoutItem.testcase",
+      "error": "Execution failed",
+      "details": "Connection exception while opening Partner connection. Connection name: LWCPrerelease, environment: <default>, authEndpoint: https://login.salesforce.com/services/Soap/u/64.0, userName: prerelease@provartesting.com, password: [supplied], securityToken: [empty]",
+      "source": "JUnit (21).xml",
+      "webBrowserType": "Chrome",
+      "projectCachePath": "workspace\\LWC_Pipeline\\..\\..\\.provarCaches"
+    },
+    {
+      "testcase": "LightningLookupAddress.testcase",
+      "testcase_path": "tests/PrereleaseScripts\\LWC Lightning\\LightningLookupAddress.testcase",
+      "error": "Execution failed",
+      "details": "Connection exception while opening Partner connection. Connection name: LWCPrerelease, environment: <default>, authEndpoint: https://login.salesforce.com/services/Soap/u/64.0, userName: prerelease@provartesting.com, password: [supplied], securityToken: [empty]",
+      "source": "JUnit (21).xml",
+      "webBrowserType": "Chrome",
+      "projectCachePath": "workspace\\LWC_Pipeline\\..\\..\\.provarCaches"
+    },
+    {
+      "testcase": "LightningTextAreaInput_HomePage(PRO-24220).testcase",
+      "testcase_path": "tests/PrereleaseScripts\\LWC Lightning\\LightningTextAreaInput_HomePage(PRO-24220).testcase",
+      "error": "Execution failed",
+      "details": "Connection exception while opening Partner connection. Connection name: LWCPrerelease, environment: <default>, authEndpoint: https://login.salesforce.com/services/Soap/u/64.0, userName: prerelease@provartesting.com, password: [supplied], securityToken: [empty]",
+      "source": "JUnit (21).xml",
+      "webBrowserType": "Chrome",
+      "projectCachePath": "workspace\\LWC_Pipeline\\..\\..\\.provarCaches"
+    },
+    {
+      "testcase": "LightningVerticalNavigationItem.testcase",
+      "testcase_path": "tests/PresentScripts_04032022\\ComponentScripts\\Custom Components\\LWC Lightning\\LightningVerticalNavigationItem.testcase",
+      "error": "Execution failed",
+      "details": "Failed to locate element: LightningVerticalNavigation",
+      "source": "JUnit (21).xml",
+      "webBrowserType": "Chrome",
+      "projectCachePath": "workspace\\LWC_Pipeline\\..\\..\\.provarCaches"
+    },
+    {
+      "testcase": "LightningVerticalNavigationItemBadge.testcase",
+      "testcase_path": "tests/PresentScripts_04032022\\ComponentScripts\\Custom Components\\LWC Lightning\\LightningVerticalNavigationItemBadge.testcase",
+      "error": "Execution failed",
+      "details": "Failed to locate element: LightningVerticalNavigation",
+      "source": "JUnit (21).xml",
+      "webBrowserType": "Chrome",
+      "projectCachePath": "workspace\\LWC_Pipeline\\..\\..\\.provarCaches"
+    },
+    {
+      "testcase": "LightningVerticalNavigationItemIcon.testcase",
+      "testcase_path": "tests/PrereleaseScripts\\LWC Lightning\\LightningVerticalNavigationItemIcon.testcase",
+      "error": "Execution failed",
+      "details": "Connection exception while opening Partner connection. Connection name: LWCPrerelease, environment: <default>, authEndpoint: https://login.salesforce.com/services/Soap/u/64.0, userName: prerelease@provartesting.com, password: [supplied], securityToken: [empty]",
+      "source": "JUnit (21).xml",
+      "webBrowserType": "Chrome",
+      "projectCachePath": "workspace\\LWC_Pipeline\\..\\..\\.provarCaches"
+    },
+    {
+      "testcase": "LightningVerticalNavigationOverflow.testcase",
+      "testcase_path": "tests/PresentScripts_04032022\\ComponentScripts\\Custom Components\\LWC Lightning\\LightningVerticalNavigationOverflow.testcase",
+      "error": "Execution failed",
+      "details": "Failed to locate element: LightningVerticalNavigation",
+      "source": "JUnit (21).xml",
+      "webBrowserType": "Chrome",
+      "projectCachePath": "workspace\\LWC_Pipeline\\..\\..\\.provarCaches"
+    },
+    {
+      "testcase": "Lightning_FormattedAddress.testcase",
+      "testcase_path": "tests/PresentScripts_04032022\\ComponentScripts\\Custom Components\\LWC Lightning\\Lightning_FormattedAddress.testcase",
+      "error": "Execution failed",
+      "details": "Error opening Salesforce UI Connection.  Connection Name: LWCTesting, cause: [NoSuchWindowException: no such window: target window already closed\nfrom unknown error: web view not found\n  (Session info: chrome=143.0.7499.41)\nBuild info: version: '4.16.1', revision: '9b4c83354e'\nSystem info: os.name: 'Windows Server 2022', os.arch: 'amd64', os.version: '10.0', java.version: '21.0.5'\nDriver info: org.openqa.selenium.chrome.ChromeDriver$ByteBuddy$uL7GZEFy]",
+      "source": "JUnit (21).xml",
+      "webBrowserType": "Chrome",
+      "projectCachePath": "workspace\\LWC_Pipeline\\..\\..\\.provarCaches"
+    },
+    {
+      "testcase": "Lightning_Record_View_Form.testcase",
+      "testcase_path": "tests/PresentScripts_04032022\\ComponentScripts\\Custom Components\\LWC Lightning\\Lightning_Record_View_Form.testcase",
+      "error": "Execution failed",
+      "details": "Failed to locate element: Account Name",
+      "source": "JUnit (21).xml",
+      "webBrowserType": "Chrome",
+      "projectCachePath": "workspace\\LWC_Pipeline\\..\\..\\.provarCaches"
+    },
+    {
+      "testcase": "Account Panel 1.testcase",
+      "testcase_path": "tests/PresentScripts_04032022\\ComponentScripts\\Custom Components\\Sales Console\\Account Panel 1.testcase",
+      "error": "Execution failed",
+      "details": "Failed to locate element: Account Name",
+      "source": "JUnit (21).xml",
+      "webBrowserType": "Chrome",
+      "projectCachePath": "workspace\\LWC_Pipeline\\..\\..\\.provarCaches"
+    },
+    {
+      "testcase": "LightningVerticalNavigationItem.testcase",
+      "testcase_path": "tests/PresentScripts_04032022\\ComponentScripts\\Custom Components\\Sales Console\\LightningVerticalNavigationItem.testcase",
+      "error": "Execution failed",
+      "details": "Failed to locate element: LightningVerticalNavigation",
+      "source": "JUnit (21).xml",
+      "webBrowserType": "Chrome",
+      "projectCachePath": "workspace\\LWC_Pipeline\\..\\..\\.provarCaches"
+    },
+    {
+      "testcase": "LightningVerticalNavigationItemBadge.testcase",
+      "testcase_path": "tests/PresentScripts_04032022\\ComponentScripts\\Custom Components\\Sales Console\\LightningVerticalNavigationItemBadge.testcase",
+      "error": "Execution failed",
+      "details": "Failed to locate element: LightningVerticalNavigation",
+      "source": "JUnit (21).xml",
+      "webBrowserType": "Chrome",
+      "projectCachePath": "workspace\\LWC_Pipeline\\..\\..\\.provarCaches"
+    },
+    {
+      "testcase": "LightningVerticalNavigationItemIcon.testcase",
+      "testcase_path": "tests/PresentScripts_04032022\\ComponentScripts\\Custom Components\\Sales Console\\LightningVerticalNavigationItemIcon.testcase",
+      "error": "Execution failed",
+      "details": "Failed to locate element: LightningVerticalNavigation",
+      "source": "JUnit (21).xml",
+      "webBrowserType": "Chrome",
+      "projectCachePath": "workspace\\LWC_Pipeline\\..\\..\\.provarCaches"
+    },
+    {
+      "testcase": "LightningVerticalNavigationOverflow.testcase",
+      "testcase_path": "tests/PresentScripts_04032022\\ComponentScripts\\Custom Components\\Sales Console\\LightningVerticalNavigationOverflow.testcase",
+      "error": "Execution failed",
+      "details": "Failed to locate element: LightningVerticalNavigation",
+      "source": "JUnit (21).xml",
+      "webBrowserType": "Chrome",
+      "projectCachePath": "workspace\\LWC_Pipeline\\..\\..\\.provarCaches"
+    },
+    {
+      "testcase": "Lightning_DualList_Box.testcase",
+      "testcase_path": "tests/PrereleaseScripts\\Sales Console\\Lightning_DualList_Box.testcase",
+      "error": "Execution failed",
+      "details": "Connection exception while opening Partner connection. Connection name: LWCPrerelease, environment: <default>, authEndpoint: https://login.salesforce.com/services/Soap/u/64.0, userName: prerelease@provartesting.com, password: [supplied], securityToken: [empty]",
+      "source": "JUnit (21).xml",
+      "webBrowserType": "Chrome",
+      "projectCachePath": "workspace\\LWC_Pipeline\\..\\..\\.provarCaches"
+    },
+    {
+      "testcase": "Lightning_FormattedAddress.testcase",
+      "testcase_path": "tests/PrereleaseScripts\\Sales Console\\Lightning_FormattedAddress.testcase",
+      "error": "Execution failed",
+      "details": "Connection exception while opening Partner connection. Connection name: LWCPrerelease, environment: <default>, authEndpoint: https://login.salesforce.com/services/Soap/u/64.0, userName: prerelease@provartesting.com, password: [supplied], securityToken: [empty]",
+      "source": "JUnit (21).xml",
+      "webBrowserType": "Chrome",
+      "projectCachePath": "workspace\\LWC_Pipeline\\..\\..\\.provarCaches"
+    },
+    {
+      "testcase": "Lightning_Record_View_Form.testcase",
+      "testcase_path": "tests/PresentScripts_04032022\\ComponentScripts\\Custom Components\\Sales Console\\Lightning_Record_View_Form.testcase",
+      "error": "Execution failed",
+      "details": "Failed to locate element: Account Name",
+      "source": "JUnit (21).xml",
+      "webBrowserType": "Chrome",
+      "projectCachePath": "workspace\\LWC_Pipeline\\..\\..\\.provarCaches"
+    },
+    {
+      "testcase": "Nested custom LWC in Aura.testcase",
+      "testcase_path": "tests/PresentScripts_04032022\\ComponentScripts\\Custom Components\\Sales Console\\Nested custom LWC in Aura.testcase",
+      "error": "Execution failed",
+      "details": "Failed to locate element: Account Name",
+      "source": "JUnit (21).xml",
+      "webBrowserType": "Chrome",
+      "projectCachePath": "workspace\\LWC_Pipeline\\..\\..\\.provarCaches"
+    },
+    {
+      "testcase": "StandaloneModalWindow.testcase",
+      "testcase_path": "tests/PresentScripts_04032022\\ComponentScripts\\Custom Components\\Sales Console\\StandaloneModalWindow.testcase",
+      "error": "Execution failed",
+      "details": "Failed to locate element: LightningInputField",
+      "source": "JUnit (21).xml",
+      "webBrowserType": "Chrome",
+      "projectCachePath": "workspace\\LWC_Pipeline\\..\\..\\.provarCaches"
+    },
+    {
+      "testcase": "Lightning-Button.testcase",
+      "testcase_path": "tests/PresentScripts_04032022\\ComponentScripts\\Dreamhouse\\Lightning-Button.testcase",
+      "error": "Execution failed",
+      "details": "Failed to perform interaction on element: Reset button",
+      "source": "JUnit (21).xml",
+      "webBrowserType": "Chrome",
+      "projectCachePath": "workspace\\LWC_Pipeline\\..\\..\\.provarCaches"
+    },
+    {
+      "testcase": "Lightning-Formatted-Number_PRO-23024.testcase",
+      "testcase_path": "tests/PresentScripts_04032022\\ComponentScripts\\Dreamhouse\\Lightning-Formatted-Number_PRO-23024.testcase",
+      "error": "Execution failed",
+      "details": "Assertion Failed.US$500.00 EqualTo",
+      "source": "JUnit (21).xml",
+      "webBrowserType": "Chrome",
+      "projectCachePath": "workspace\\LWC_Pipeline\\..\\..\\.provarCaches"
+    }
+  ]
+}
