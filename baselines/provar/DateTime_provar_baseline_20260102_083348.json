@@ -1,0 +1,46 @@
+{
+  "id": "baseline_20260102_083348",
+  "project": "DateTime",
+  "platform": "provar",
+  "label": "Auto",
+  "created_at": "20260102_083348",
+  "failure_count": 4,
+  "failures": [
+    {
+      "testcase": "ICUNewEventNewTask.testcase",
+      "testcase_path": "tests/ProvarRegressionSuite\\01- UI Test Cases\\DateTime\\PRO-17061\\ICUTemplates\\ICUNewEventNewTask.testcase",
+      "error": "Execution failed",
+      "details": "The control was not found.  Locator: By.xpath: //div[contains(@class,'bRelatedList') and contains(@id, '_RelatedActivityList')]//input[(@type='button' or @type='submit') and (  @name='task')]",
+      "source": "JUnit (29).xml",
+      "webBrowserType": "Chrome",
+      "projectCachePath": "workspace\\DateTime\\..\\.provarCaches"
+    },
+    {
+      "testcase": "ICUNewEventQANewOppQA.testcase",
+      "testcase_path": "tests/ProvarRegressionSuite\\01- UI Test Cases\\DateTime\\PRO-17061\\ICUTemplates\\ICUNewEventQANewOppQA.testcase",
+      "error": "Execution failed",
+      "details": "Assertion Failed.01-Jun-2021 08:00 EqualTo Jun 1, 2021 8:00 AM",
+      "source": "JUnit (29).xml",
+      "webBrowserType": "Chrome",
+      "projectCachePath": "workspace\\DateTime\\..\\.provarCaches"
+    },
+    {
+      "testcase": "ICUPathCaseObject.testcase",
+      "testcase_path": "tests/ProvarRegressionSuite\\01- UI Test Cases\\DateTime\\PRO-17061\\ICUTemplates\\ICUPathCaseObject.testcase",
+      "error": "Execution failed",
+      "details": "Assertion Failed.12/11/2021 12:00 EqualTo 11/12/2021 12:00 PM",
+      "source": "JUnit (29).xml",
+      "webBrowserType": "Chrome",
+      "projectCachePath": "workspace\\DateTime\\..\\.provarCaches"
+    },
+    {
+      "testcase": "JDKNewEventNewTask.testcase",
+      "testcase_path": "tests/ProvarRegressionSuite\\01- UI Test Cases\\DateTime\\PRO-17061\\JDKTemplates\\JDKNewEventNewTask.testcase",
+      "error": "Execution failed",
+      "details": "Assertion Failed.18-May-2021 01:00 EqualTo 19-May-2021 01:00",
+      "source": "JUnit (29).xml",
+      "webBrowserType": "Chrome",
+      "projectCachePath": "workspace\\DateTime\\..\\.provarCaches"
+    }
+  ]
+}
