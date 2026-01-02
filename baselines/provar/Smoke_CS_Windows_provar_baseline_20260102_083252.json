@@ -1,0 +1,55 @@
+{
+  "id": "baseline_20260102_083252",
+  "project": "Smoke_CS_Windows",
+  "platform": "provar",
+  "label": "Auto",
+  "created_at": "20260102_083252",
+  "failure_count": 5,
+  "failures": [
+    {
+      "testcase": "Cases_RL_Open_Activities_Value & Column Assertions.testcase",
+      "testcase_path": "tests/Regression\\01 - Classic Sales\\Standard\\Related Lists\\Cases\\Cases_RL_Open_Activities\\Cases_RL_Open_Activities_Value & Column Assertions.testcase",
+      "error": "Execution failed",
+      "details": "Assertion Failed.Regmain Oauth Automation Contains Admin",
+      "source": "JUnit (39).xml",
+      "webBrowserType": "Chrome",
+      "projectCachePath": "workspace\\Smoke_CS_Windows\\..\\.provarCaches"
+    },
+    {
+      "testcase": "Cases_RL_Open_Activities_ViewAll_Value & Column Assertions.testcase",
+      "testcase_path": "tests/Regression\\01 - Classic Sales\\Standard\\Related Lists\\Cases\\Cases_RL_Open_Activities\\Cases_RL_Open_Activities_ViewAll_Value & Column Assertions.testcase",
+      "error": "Execution failed",
+      "details": "Assertion Failed.Automation, Regmain Oauth Contains Admin",
+      "source": "JUnit (39).xml",
+      "webBrowserType": "Chrome",
+      "projectCachePath": "workspace\\Smoke_CS_Windows\\..\\.provarCaches"
+    },
+    {
+      "testcase": "Contact_RL_Case_Values&Column_Assertion_.testcase",
+      "testcase_path": "tests/Regression\\01 - Classic Sales\\Standard\\Related Lists\\Contacts\\Contact_RL_Cases\\Contact_RL_Case_Values&Column_Assertion_.testcase",
+      "error": "Execution failed",
+      "details": "Assertion Failed.Regmain Oauth Automation Contains Admin",
+      "source": "JUnit (39).xml",
+      "webBrowserType": "Chrome",
+      "projectCachePath": "workspace\\Smoke_CS_Windows\\..\\.provarCaches"
+    },
+    {
+      "testcase": "Contact_RL_Case_Values&Column_Assertion_ViewAll PRO-7100.testcase",
+      "testcase_path": "tests/Regression\\01 - Classic Sales\\Standard\\Related Lists\\Contacts\\Contact_RL_Cases\\Contact_RL_Case_Values&Column_Assertion_ViewAll PRO-7100.testcase",
+      "error": "Execution failed",
+      "details": "Assertion Failed.Automation, Regmain Oauth Contains Admin",
+      "source": "JUnit (39).xml",
+      "webBrowserType": "Chrome",
+      "projectCachePath": "workspace\\Smoke_CS_Windows\\..\\.provarCaches"
+    },
+    {
+      "testcase": "Opportunity View Clone Button.testcase",
+      "testcase_path": "tests/Regression\\01 - Classic Sales\\Standard\\View\\Buttons\\Clicks\\Opportunity View Buttons Action\\Opportunity View Clone Button.testcase",
+      "error": "Execution failed",
+      "details": "The row locator did not match any rows.",
+      "source": "JUnit (39).xml",
+      "webBrowserType": "Chrome",
+      "projectCachePath": "workspace\\Smoke_CS_Windows\\..\\.provarCaches"
+    }
+  ]
+}
