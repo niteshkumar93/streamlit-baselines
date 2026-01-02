@@ -1,0 +1,208 @@
+{
+  "id": "baseline_20260102_083330",
+  "project": "Internationalization_pipeline",
+  "platform": "provar",
+  "label": "Auto",
+  "created_at": "20260102_083330",
+  "failure_count": 22,
+  "failures": [
+    {
+      "testcase": "NewEvent PRO-15715.testcase",
+      "testcase_path": "tests/CC_QA\\Accounts\\NewEvent PRO-15715.testcase",
+      "error": "Execution failed",
+      "details": "The control was not found.  Locator: By.xpath: //div[contains(@class,'publishercontainer') or contains(@class,'publisherWrapper')]//div[contains(@class,'activeTemplate')]//div[(contains(@class,'quickActionFieldLabel') or contains(@class,'publisherFieldLabel')) and (text()[not(ancestor::script)] = 'Slutning' or span/text() = 'Slutning' or label/text() = 'Slutning' or span/label/text() = 'Slutning' or label[contains(.,'Slutning')] )]//following-sibling::div[contains(@class,'quickActionFieldElement') or contains(@class,'publisherFieldElement')][1]",
+      "source": "JUnit (34).xml",
+      "webBrowserType": "Chrome",
+      "projectCachePath": "workspace\\Internationalization_pipeline\\..\\..\\.provarCaches"
+    },
+    {
+      "testcase": "LogACall.testcase",
+      "testcase_path": "tests/CC_QA\\Cases\\LogACall.testcase",
+      "error": "Execution failed",
+      "details": "Error doing interaction.  Connection Name: Customization_Danish, cause: [ElementNotInteractableException: element not interactable: [object HTMLTextAreaElement] has no size and location\n  (Session info: chrome=143.0.7499.147)\nBuild info: version: '4.16.1', revision: '9b4c83354e'\nSystem info: os.name: 'Windows Server 2022', os.arch: 'amd64', os.version: '10.0', java.version: '21.0.5'\nDriver info: org.openqa.selenium.chrome.ChromeDriver$ByteBuddy$0I5pgvht]",
+      "source": "JUnit (34).xml",
+      "webBrowserType": "Chrome",
+      "projectCachePath": "workspace\\Internationalization_pipeline\\..\\..\\.provarCaches"
+    },
+    {
+      "testcase": "NewEvent PRO-15715.testcase",
+      "testcase_path": "tests/CC_QA\\Cases\\NewEvent PRO-15715.testcase",
+      "error": "Execution failed",
+      "details": "The control was not found.  Locator: By.xpath: //div[contains(@class,'publishercontainer') or contains(@class,'publisherWrapper')]//div[contains(@class,'activeTemplate')]//div[(contains(@class,'quickActionFieldLabel') or contains(@class,'publisherFieldLabel')) and (text()[not(ancestor::script)] = 'Slutning' or span/text() = 'Slutning' or label/text() = 'Slutning' or span/label/text() = 'Slutning' or label[contains(.,'Slutning')] )]//following-sibling::div[contains(@class,'quickActionFieldElement') or contains(@class,'publisherFieldElement')][1]",
+      "source": "JUnit (34).xml",
+      "webBrowserType": "Chrome",
+      "projectCachePath": "workspace\\Internationalization_pipeline\\..\\..\\.provarCaches"
+    },
+    {
+      "testcase": "Visualforce GA PRO-15635,16939,7552.testcase",
+      "testcase_path": "tests/CC_QA\\Cases\\Visualforce GA PRO-15635,16939,7552.testcase",
+      "error": "Execution failed",
+      "details": "The row locator did not match any rows.",
+      "source": "JUnit (34).xml",
+      "webBrowserType": "Chrome",
+      "projectCachePath": "workspace\\Internationalization_pipeline\\..\\..\\.provarCaches"
+    },
+    {
+      "testcase": "New Event.testcase",
+      "testcase_path": "tests/CC_QA\\Contact\\New Event.testcase",
+      "error": "Execution failed",
+      "details": "The control was not found.  Locator: By.xpath: //div[contains(@class,'publishercontainer') or contains(@class,'publisherWrapper')]//div[contains(@class,'activeTemplate')]//div[(contains(@class,'quickActionFieldLabel') or contains(@class,'publisherFieldLabel')) and (text()[not(ancestor::script)] = 'Slutning' or span/text() = 'Slutning' or label/text() = 'Slutning' or span/label/text() = 'Slutning' or label[contains(.,'Slutning')] )]//following-sibling::div[contains(@class,'quickActionFieldElement') or contains(@class,'publisherFieldElement')][1]",
+      "source": "JUnit (34).xml",
+      "webBrowserType": "Chrome",
+      "projectCachePath": "workspace\\Internationalization_pipeline\\..\\..\\.provarCaches"
+    },
+    {
+      "testcase": "NewOpportunity PRO-8090.testcase",
+      "testcase_path": "tests/CC_QA\\Contact\\NewOpportunity PRO-8090.testcase",
+      "error": "Execution failed",
+      "details": "Assertion Failed.26-12-2025 Contains 26/12/2025",
+      "source": "JUnit (34).xml",
+      "webBrowserType": "Chrome",
+      "projectCachePath": "workspace\\Internationalization_pipeline\\..\\..\\.provarCaches"
+    },
+    {
+      "testcase": "NewTask 8090.testcase",
+      "testcase_path": "tests/CC_QA\\Contact\\NewTask 8090.testcase",
+      "error": "Execution failed",
+      "details": "Assertion Failed.26-12-2025 Contains 26/12/2025",
+      "source": "JUnit (34).xml",
+      "webBrowserType": "Chrome",
+      "projectCachePath": "workspace\\Internationalization_pipeline\\..\\..\\.provarCaches"
+    },
+    {
+      "testcase": "UpdateOpportunity.testcase",
+      "testcase_path": "tests/CC_QA\\Opportunity\\UpdateOpportunity.testcase",
+      "error": "Execution failed",
+      "details": "Assertion Failed.18-12-2025 Contains 18/12/2025",
+      "source": "JUnit (34).xml",
+      "webBrowserType": "Chrome",
+      "projectCachePath": "workspace\\Internationalization_pipeline\\..\\..\\.provarCaches"
+    },
+    {
+      "testcase": "NewAccount.testcase",
+      "testcase_path": "tests/LC_QA\\Cases\\NewAccount.testcase",
+      "error": "Execution failed",
+      "details": "The control was not found.  Locator: By.xpath: //div[contains(@class,'bRelatedList')][1]//input[@name='new' or (contains(@name,'__new') and not(substring-after(@name,'__new')))]",
+      "source": "JUnit (34).xml",
+      "webBrowserType": "Chrome",
+      "projectCachePath": "workspace\\Internationalization_pipeline\\..\\..\\.provarCaches"
+    },
+    {
+      "testcase": "UpdateOpportunity.testcase",
+      "testcase_path": "tests/LC_QA\\Opportunity\\UpdateOpportunity.testcase",
+      "error": "Execution failed",
+      "details": "Assertion Failed.18.12.2025 EqualTo 18/12/2025",
+      "source": "JUnit (34).xml",
+      "webBrowserType": "Chrome",
+      "projectCachePath": "workspace\\Internationalization_pipeline\\..\\..\\.provarCaches"
+    },
+    {
+      "testcase": "Create-Account.testcase",
+      "testcase_path": "tests/Lightning Console\\Create-Account.testcase",
+      "error": "Execution failed",
+      "details": "Assertion Failed.street121Goa India EqualTo streetGoa 121India",
+      "source": "JUnit (34).xml",
+      "webBrowserType": "Chrome",
+      "projectCachePath": "workspace\\Internationalization_pipeline\\..\\..\\.provarCaches"
+    },
+    {
+      "testcase": "NewContactLDS_Aura.testcase",
+      "testcase_path": "tests/LS_QA\\Accounts\\NewContactLDS_Aura.testcase",
+      "error": "Execution failed",
+      "details": "Assertion Failed.null EqualTo Udfyld dette felt.",
+      "source": "JUnit (34).xml",
+      "webBrowserType": "Chrome",
+      "projectCachePath": "workspace\\Internationalization_pipeline\\..\\..\\.provarCaches"
+    },
+    {
+      "testcase": "NewEvent_and_NewTask.testcase",
+      "testcase_path": "tests/LS_QA\\Cases\\NewEvent_and_NewTask.testcase",
+      "error": "Execution failed",
+      "details": "Assertion Failed.18. dec. 2025 21.50 EqualTo 18-12-2025 21:50",
+      "source": "JUnit (34).xml",
+      "webBrowserType": "Chrome",
+      "projectCachePath": "workspace\\Internationalization_pipeline\\..\\..\\.provarCaches"
+    },
+    {
+      "testcase": "NewOpportunity.testcase",
+      "testcase_path": "tests/LS_QA\\Cases\\NewOpportunity.testcase",
+      "error": "Execution failed",
+      "details": "Assertion Failed.26.12.2025 EqualTo 26/12/2025",
+      "source": "JUnit (34).xml",
+      "webBrowserType": "Chrome",
+      "projectCachePath": "workspace\\Internationalization_pipeline\\..\\..\\.provarCaches"
+    },
+    {
+      "testcase": "NewOpportunity.testcase",
+      "testcase_path": "tests/LS_QA\\Contact\\NewOpportunity.testcase",
+      "error": "Execution failed",
+      "details": "Assertion Failed.26.12.2025 EqualTo 26/12/2025",
+      "source": "JUnit (34).xml",
+      "webBrowserType": "Chrome",
+      "projectCachePath": "workspace\\Internationalization_pipeline\\..\\..\\.provarCaches"
+    },
+    {
+      "testcase": "NewTask.testcase",
+      "testcase_path": "tests/LS_QA\\Contact\\NewTask.testcase",
+      "error": "Execution failed",
+      "details": "Assertion Failed.26.12.2025 EqualTo 26/12/2025",
+      "source": "JUnit (34).xml",
+      "webBrowserType": "Chrome",
+      "projectCachePath": "workspace\\Internationalization_pipeline\\..\\..\\.provarCaches"
+    },
+    {
+      "testcase": "Case Update.testcase",
+      "testcase_path": "tests/Sales Lightning\\Case Update.testcase",
+      "error": "Execution failed",
+      "details": "Assertion Failed.30 % EqualTo 30%",
+      "source": "JUnit (34).xml",
+      "webBrowserType": "Chrome",
+      "projectCachePath": "workspace\\Internationalization_pipeline\\..\\..\\.provarCaches"
+    },
+    {
+      "testcase": "Contact Update.testcase",
+      "testcase_path": "tests/Sales Lightning\\Contact Update.testcase",
+      "error": "Execution failed",
+      "details": "Assertion Failed.3467 new laneC01AQ0 BXULFDelhi India EqualTo 3467 new laneBXULF, Delhi C01AQ0India",
+      "source": "JUnit (34).xml",
+      "webBrowserType": "Chrome",
+      "projectCachePath": "workspace\\Internationalization_pipeline\\..\\..\\.provarCaches"
+    },
+    {
+      "testcase": "Create Dynamic Object.testcase",
+      "testcase_path": "tests/Sales Lightning\\Create Dynamic Object.testcase",
+      "error": "Execution failed",
+      "details": "Assertion Failed.18.12.2025 EqualTo 18/12/2025",
+      "source": "JUnit (34).xml",
+      "webBrowserType": "Chrome",
+      "projectCachePath": "workspace\\Internationalization_pipeline\\..\\..\\.provarCaches"
+    },
+    {
+      "testcase": "Create Opportunity.testcase",
+      "testcase_path": "tests/Sales Lightning\\Create Opportunity.testcase",
+      "error": "Execution failed",
+      "details": "Assertion Failed.18.05.2026 EqualTo 18/05/2026",
+      "source": "JUnit (34).xml",
+      "webBrowserType": "Chrome",
+      "projectCachePath": "workspace\\Internationalization_pipeline\\..\\..\\.provarCaches"
+    },
+    {
+      "testcase": "Field Specific Errors.testcase",
+      "testcase_path": "tests/Sales Lightning\\Field Specific Errors.testcase",
+      "error": "Execution failed",
+      "details": "Assertion Failed.Fuldf\u00f8r dette felt med formatet 31.12.2024. EqualTo Fuldf\u00f8r dette felt med formatet 31/12/2024.",
+      "source": "JUnit (34).xml",
+      "webBrowserType": "Chrome",
+      "projectCachePath": "workspace\\Internationalization_pipeline\\..\\..\\.provarCaches"
+    },
+    {
+      "testcase": "Opportunity inline editing.testcase",
+      "testcase_path": "tests/Sales Lightning\\Opportunity inline editing.testcase",
+      "error": "Execution failed",
+      "details": "Assertion Failed.8 % EqualTo 8%",
+      "source": "JUnit (34).xml",
+      "webBrowserType": "Chrome",
+      "projectCachePath": "workspace\\Internationalization_pipeline\\..\\..\\.provarCaches"
+    }
+  ]
+}
