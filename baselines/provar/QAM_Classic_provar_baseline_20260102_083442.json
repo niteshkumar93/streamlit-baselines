@@ -1,0 +1,415 @@
+{
+  "id": "baseline_20260102_083442",
+  "project": "QAM_Classic",
+  "platform": "provar",
+  "label": "Auto",
+  "created_at": "20260102_083442",
+  "failure_count": 45,
+  "failures": [
+    {
+      "testcase": "00_TestRunErrors.testcase",
+      "testcase_path": "tests/ProvarRegressionSuite\\01- UI Test Cases\\00-Tool Test Functions\\00_TestRunErrors.testcase",
+      "error": "Execution failed",
+      "details": "Provar_Test_Error_Function",
+      "source": "JUnit (20).xml",
+      "webBrowserType": "Chrome",
+      "projectCachePath": "workspace\\QAM_Classic\\..\\.provarCaches"
+    },
+    {
+      "testcase": "Console_ColumnAssertion_Lookup.testcase",
+      "testcase_path": "tests/ProvarRegressionSuite\\01- UI Test Cases\\02 Console\\Account\\Console_ColumnAssertion_Lookup.testcase",
+      "error": "Execution failed",
+      "details": "[NullPointerException: Cannot invoke \"java.util.List.iterator()\" because the return value of \"com.provar.core.model.ui.api.IUiScreenMapping.getChildComponentMappings()\" is null\nStack Trace:\njava.lang.NullPointerException: Cannot invoke \"java.util.List.iterator()\" because the return value of \"com.provar.core.model.ui.api.IUiScreenMapping.getChildComponentMappings()\" is null\n\tat com.provar.plugins.forcedotcom.core.ui.SfRowLocatorSupport.resolveUiScreenMappingToXpath(SfRowLocatorSupport.java:522)\n\tat com.provar.plugins.forcedotcom.core.ui.SfRowLocatorSupport.resolveToXpath(SfRowLocatorSupport.java:237)\n\tat com.provar.plugins.forcedotcom.core.ui.SfUiHandler.resolveToXPath(SfUiHandler.java:6278)\n\tat com.provar.plugins.forcedotcom.core.ui.SeleniumUiHandler.resolveLocator(SeleniumUiHandler.java:5491)\n\tat com.provar.plugins.forcedotcom.core.ui.SfUiHandler.performRowOpenLayout(SfUiHandler.java:4830)\n\tat com.provar.plugins.forcedotcom.core.ui.SfUiHandler.performRowOpen(SfUiHandler.java:4666)\n\tat com.provar.plugins.forcedotcom.core.ui.SeleniumUiHandler.perform(SeleniumUiHandler.java:420)\n\tat com.provar.plugins.forcedotcom.core.connection.SfConnectionHandler.delegateToUiHandler(SfConnectionHandler.java:339)\n\tat com.provar.plugins.forcedotcom.core.connection.SfConnectionHandler.perform(SfConnectionHandler.java:330)\n\tat com.provar.core.testexecution.common.java.TestExecutionContextImpl.doConnectionOperation(TestExecutionContextImpl.java:866)\n\tat com.provar.plugins.forcedotcom.core.ui.UiWithRow.execute(UiWithRow.java:121)\n\tat java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)\n\tat java.base/java.lang.reflect.Method.invoke(Method.java:580)\n\tat com.provar.core.testexecution.container.java.TestExecutionContainerImpl.invokeTestApi(TestExecutionContainerImpl.java:806)\n\tat com.provar.core.testexecution.container.java.LocalTestExecutionContainerRunner.doInvokeTestApi(LocalTestExecutionContainerRunner.java:777)\n\tat com.provar.core.testexecution.container.java.LocalTestExecutionContainerRunner$MessageProcessor.run(LocalTestExecutionContainerRunner.java:1451)\n]",
+      "source": "JUnit (20).xml",
+      "webBrowserType": "Chrome",
+      "projectCachePath": "workspace\\QAM_Classic\\..\\.provarCaches"
+    },
+    {
+      "testcase": "03- Leads RelatedList_OpenActivities.testcase",
+      "testcase_path": "tests/ProvarRegressionSuite\\01- UI Test Cases\\02 Console\\Lead\\03- Leads RelatedList_OpenActivities.testcase",
+      "error": "Execution failed",
+      "details": "No rows found in table",
+      "source": "JUnit (20).xml",
+      "webBrowserType": "Chrome",
+      "projectCachePath": "workspace\\QAM_Classic\\..\\.provarCaches"
+    },
+    {
+      "testcase": "05- Leads RelatedList_Campaign.testcase",
+      "testcase_path": "tests/ProvarRegressionSuite\\01- UI Test Cases\\02 Console\\Lead\\05- Leads RelatedList_Campaign.testcase",
+      "error": "Execution failed",
+      "details": "The row locator did not match any rows.",
+      "source": "JUnit (20).xml",
+      "webBrowserType": "Chrome",
+      "projectCachePath": "workspace\\QAM_Classic\\..\\.provarCaches"
+    },
+    {
+      "testcase": "11- Console Opportunity RelatedList_OpenActivities.testcase",
+      "testcase_path": "tests/ProvarRegressionSuite\\01- UI Test Cases\\02 Console\\Opportunity\\11- Console Opportunity RelatedList_OpenActivities.testcase",
+      "error": "Execution failed",
+      "details": "The control was not found.  Locator: By.xpath: //td[@id = 'topButtonRow' or @id = 'bottomButtonRow'][1]//input[(@type='button' or @type='submit') and (@name='cancel')]",
+      "source": "JUnit (20).xml",
+      "webBrowserType": "Chrome",
+      "projectCachePath": "workspace\\QAM_Classic\\..\\.provarCaches"
+    },
+    {
+      "testcase": "DB2 database tests.testcase",
+      "testcase_path": "tests/ProvarRegressionSuite\\02- API_TestCases\\04- Connections\\Database\\DB2 database tests.testcase",
+      "error": "Execution failed",
+      "details": "Error opening DB Connection.  Connection Name: DB2, cause: [DisconnectNonTransientConnectionException: [jcc][t4][2043][11550][4.25.13] Exception java.net.ConnectException: Error opening socket to server /3.219.150.117 on port 50,000 with message: Connection timed out: connect. ERRORCODE=-4499, SQLSTATE=08001, ConnectException: Connection timed out: connect]",
+      "source": "JUnit (20).xml",
+      "webBrowserType": "Chrome",
+      "projectCachePath": "workspace\\QAM_Classic\\..\\.provarCaches"
+    },
+    {
+      "testcase": "MSSQLServer.testcase",
+      "testcase_path": "tests/ProvarRegressionSuite\\02- API_TestCases\\04- Connections\\Database\\MSSQLServer.testcase",
+      "error": "Execution failed",
+      "details": "Error opening DB Connection.  Connection Name: SQLSERVER, cause: [SQLServerException: The TCP/IP connection to the host 3.219.150.117, port 1433 has failed. Error: \"Connect timed out. Verify the connection properties. Make sure that an instance of SQL Server is running on the host and accepting TCP/IP connections at the port. Make sure that TCP connections to the port are not blocked by a firewall.\".]",
+      "source": "JUnit (20).xml",
+      "webBrowserType": "Chrome",
+      "projectCachePath": "workspace\\QAM_Classic\\..\\.provarCaches"
+    },
+    {
+      "testcase": "MySQL5 DB Tests.testcase",
+      "testcase_path": "tests/ProvarRegressionSuite\\02- API_TestCases\\04- Connections\\Database\\MySQL5 DB Tests.testcase",
+      "error": "Execution failed",
+      "details": "Error opening DB Connection.  Connection Name: MySql5, cause: [SQLNonTransientConnectionException: Could not connect to address=(host=23.20.174.149)(port=3306)(type=master) : Connection timed out: getsockopt, ConnectException: Connection timed out: getsockopt]",
+      "source": "JUnit (20).xml",
+      "webBrowserType": "Chrome",
+      "projectCachePath": "workspace\\QAM_Classic\\..\\.provarCaches"
+    },
+    {
+      "testcase": "MySQL8 DB Tests.testcase",
+      "testcase_path": "tests/ProvarRegressionSuite\\02- API_TestCases\\04- Connections\\Database\\MySQL8 DB Tests.testcase",
+      "error": "Execution failed",
+      "details": "Error opening DB Connection.  Connection Name: MySql8, cause: [SQLNonTransientConnectionException: Could not connect to address=(host=23.20.174.149)(port=3306)(type=master) : Connection timed out: getsockopt, ConnectException: Connection timed out: getsockopt]",
+      "source": "JUnit (20).xml",
+      "webBrowserType": "Chrome",
+      "projectCachePath": "workspace\\QAM_Classic\\..\\.provarCaches"
+    },
+    {
+      "testcase": "Oracle DB tests.testcase",
+      "testcase_path": "tests/ProvarRegressionSuite\\02- API_TestCases\\04- Connections\\Database\\Oracle DB tests.testcase",
+      "error": "Execution failed",
+      "details": "Error opening DB Connection.  Connection Name: Oracle, cause: [SQLRecoverableException: IO Error: The Network Adapter could not establish the connection, NetException: The Network Adapter could not establish the connection, IOException: Connection timed out: connect, socket connect lapse 21003 ms. oracledb.qa.provar.in/172.31.29.31 1521 0 1 true, ConnectException: Connection timed out: connect]",
+      "source": "JUnit (20).xml",
+      "webBrowserType": "Chrome",
+      "projectCachePath": "workspace\\QAM_Classic\\..\\.provarCaches"
+    },
+    {
+      "testcase": "Postgres DB Tests.testcase",
+      "testcase_path": "tests/ProvarRegressionSuite\\02- API_TestCases\\04- Connections\\Database\\Postgres DB Tests.testcase",
+      "error": "Execution failed",
+      "details": "Error opening DB Connection.  Connection Name: Postgres, cause: [PSQLException: The connection attempt failed., SocketTimeoutException: Connect timed out]",
+      "source": "JUnit (20).xml",
+      "webBrowserType": "Chrome",
+      "projectCachePath": "workspace\\QAM_Classic\\..\\.provarCaches"
+    },
+    {
+      "testcase": "MSGraphSendEmail.testcase",
+      "testcase_path": "tests/ProvarRegressionSuite\\02- API_TestCases\\04- Connections\\Messaging\\MSGraphSendEmail.testcase",
+      "error": "Execution failed",
+      "details": "Assertion failed.  (result) Test Subject Jap \u4e4d\u4e39\u51e0\u4ea1\u3068 \u4e4d\u56de Test Subject Chinese \u513f\u52d2\u5c41\u827e \u827e\u827e\u897f\u827e \u827e = This is for testing Provar (target)",
+      "source": "JUnit (20).xml",
+      "webBrowserType": "Chrome",
+      "projectCachePath": "workspace\\QAM_Classic\\..\\.provarCaches"
+    },
+    {
+      "testcase": "Oauth2_MSExchangeSendEmail.testcase",
+      "testcase_path": "tests/ProvarRegressionSuite\\02- API_TestCases\\04- Connections\\Messaging\\Oauth2_MSExchangeSendEmail.testcase",
+      "error": "Execution failed",
+      "details": "Error getting request folder.  Folder: INBOX",
+      "source": "JUnit (20).xml",
+      "webBrowserType": "Chrome",
+      "projectCachePath": "workspace\\QAM_Classic\\..\\.provarCaches"
+    },
+    {
+      "testcase": "Connections in group steps.testcase",
+      "testcase_path": "tests/ProvarRegressionSuite\\02- API_TestCases\\04- Connections\\Multisession\\Connections in group steps.testcase",
+      "error": "Execution failed",
+      "details": "[TimeoutException: Expected condition failed: waiting for com.provar.plugins.forcedotcom.core.ui.SeleniumUiHandler$1@17552a39 (tried for 60 second(s) with 500 milliseconds interval)\nBuild info: version: '4.16.1', revision: '9b4c83354e'\nSystem info: os.name: 'Windows Server 2022', os.arch: 'amd64', os.version: '10.0', java.version: '21.0.5'\nDriver info: org.openqa.selenium.chrome.ChromeDriver$ByteBuddy$t8JUM1Tq\nCapabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 143.0.7499.41, chrome: {chromedriverVersion: 143.0.7499.41 (09d0e08b6226..., userDataDir: C:\\Users\\Administrator\\Docu...}, fedcm:accounts: true, goog:processID: 4964, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(direct), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}\nSession ID: e132bb6717ab76e6a671c18e38120532]",
+      "source": "JUnit (20).xml",
+      "webBrowserType": "Chrome",
+      "projectCachePath": "workspace\\QAM_Classic\\..\\.provarCaches"
+    },
+    {
+      "testcase": "Parlell connection in single test case of diff org.testcase",
+      "testcase_path": "tests/ProvarRegressionSuite\\02- API_TestCases\\04- Connections\\Multisession\\Parlell connection in single test case of diff org.testcase",
+      "error": "Execution failed",
+      "details": "The control was not found.  Locator: By.xpath: //div[contains(@class,'listButtons') or contains(@class,'listHeader')]//input[@name='new' or (contains(@name,'__new') and not(substring-after(@name,'__new')))]",
+      "source": "JUnit (20).xml",
+      "webBrowserType": "Chrome",
+      "projectCachePath": "workspace\\QAM_Classic\\..\\.provarCaches"
+    },
+    {
+      "testcase": "Subsession of diff org connection.testcase",
+      "testcase_path": "tests/ProvarRegressionSuite\\02- API_TestCases\\04- Connections\\Multisession\\Subsession of diff org connection.testcase",
+      "error": "Execution failed",
+      "details": "[TimeoutException: Expected condition failed: waiting for com.provar.plugins.forcedotcom.core.ui.SeleniumUiHandler$1@7285f5aa (tried for 60 second(s) with 500 milliseconds interval)\nBuild info: version: '4.16.1', revision: '9b4c83354e'\nSystem info: os.name: 'Windows Server 2022', os.arch: 'amd64', os.version: '10.0', java.version: '21.0.5'\nDriver info: org.openqa.selenium.chrome.ChromeDriver$ByteBuddy$LA8lPg5M\nCapabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 143.0.7499.41, chrome: {chromedriverVersion: 143.0.7499.41 (09d0e08b6226..., userDataDir: C:\\Users\\Administrator\\Docu...}, fedcm:accounts: true, goog:processID: 5116, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(direct), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}\nSession ID: 10a6f61a029dba6996db13f2468f0362]",
+      "source": "JUnit (20).xml",
+      "webBrowserType": "Chrome",
+      "projectCachePath": "workspace\\QAM_Classic\\..\\.provarCaches"
+    },
+    {
+      "testcase": "SSO_SF_Lightning_OpportunityCreate.testcase",
+      "testcase_path": "tests/ProvarRegressionSuite\\02- API_TestCases\\04- Connections\\SSO\\SSO_SF\\SSO_SF_Lightning_OpportunityCreate.testcase",
+      "error": "Execution failed",
+      "details": "SSO Login failed. Connection name: SF_SSO, SSO Connection name: {1}, messages:",
+      "source": "JUnit (20).xml",
+      "webBrowserType": "Chrome",
+      "projectCachePath": "workspace\\QAM_Classic\\..\\.provarCaches"
+    },
+    {
+      "testcase": "SSO_SF_OpportunityCreate.testcase",
+      "testcase_path": "tests/ProvarRegressionSuite\\02- API_TestCases\\04- Connections\\SSO\\SSO_SF\\SSO_SF_OpportunityCreate.testcase",
+      "error": "Execution failed",
+      "details": "SSO Login failed. Connection name: SF_SSO, SSO Connection name: {1}, messages:",
+      "source": "JUnit (20).xml",
+      "webBrowserType": "Chrome",
+      "projectCachePath": "workspace\\QAM_Classic\\..\\.provarCaches"
+    },
+    {
+      "testcase": "Rest-Api Key Authentication.testcase",
+      "testcase_path": "tests/ProvarRegressionSuite\\02- API_TestCases\\04- Connections\\Web Services\\Rest-Api Key Authentication.testcase",
+      "error": "Execution failed",
+      "details": "Assertion failed.  (result) 403 = 200 (target)",
+      "source": "JUnit (20).xml",
+      "webBrowserType": "Chrome",
+      "projectCachePath": "workspace\\QAM_Classic\\..\\.provarCaches"
+    },
+    {
+      "testcase": "Salesforce Rest.testcase",
+      "testcase_path": "tests/ProvarRegressionSuite\\02- API_TestCases\\04- Connections\\Web Services\\Salesforce Rest.testcase",
+      "error": "Execution failed",
+      "details": "Assertion failed.  (result) 200 = 401 (target)",
+      "source": "JUnit (20).xml",
+      "webBrowserType": "Chrome",
+      "projectCachePath": "workspace\\QAM_Classic\\..\\.provarCaches"
+    },
+    {
+      "testcase": "AWS_Bucket_Operations_PRO-35404.testcase",
+      "testcase_path": "tests/ProvarRegressionSuite\\02- API_TestCases\\04- Connections\\Web Services\\AWS\\AWS_Bucket_Operations_PRO-35404.testcase",
+      "error": "Execution failed",
+      "details": "[RuntimeException: Unable to compute hash while signing request: Cannot invoke \"String.getBytes(String)\" because \"text\" is null, NullPointerException: Cannot invoke \"String.getBytes(String)\" because \"text\" is null\nStack Trace:\njava.lang.NullPointerException: Cannot invoke \"String.getBytes(String)\" because \"text\" is null\n\tat com.provar.core.connection.rest.AWS4SignerBase.hash(AWS4SignerBase.java:114)\n\tat com.provar.core.connection.rest.AWSAuthenticationHandler.perform(AWSAuthenticationHandler.java:73)\n\tat com.provar.core.testexecution.common.java.TestExecutionContextImpl.doConnectionOperation(TestExecutionContextImpl.java:866)\n\tat com.provar.plugins.bundled.apis.restservice.RestRequest.execute(RestRequest.java:107)\n\tat java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)\n\tat java.base/java.lang.reflect.Method.invoke(Method.java:580)\n\tat com.provar.core.testexecution.container.java.TestExecutionContainerImpl.invokeTestApi(TestExecutionContainerImpl.java:806)\n\tat com.provar.core.testexecution.container.java.LocalTestExecutionContainerRunner.doInvokeTestApi(LocalTestExecutionContainerRunner.java:777)\n\tat com.provar.core.testexecution.container.java.LocalTestExecutionContainerRunner$MessageProcessor.run(LocalTestExecutionContainerRunner.java:1451)\n]",
+      "source": "JUnit (20).xml",
+      "webBrowserType": "Chrome",
+      "projectCachePath": "workspace\\QAM_Classic\\..\\.provarCaches"
+    },
+    {
+      "testcase": "AccountRenamedExtract.testcase",
+      "testcase_path": "tests/ProvarRegressionSuite\\02- API_TestCases\\05- Force.com\\AccountRenamedExtract.testcase",
+      "error": "Execution failed",
+      "details": "Select the Lightning Application to extract Dynamic Form Layout.",
+      "source": "JUnit (20).xml",
+      "webBrowserType": "Chrome",
+      "projectCachePath": "workspace\\QAM_Classic\\..\\.provarCaches"
+    },
+    {
+      "testcase": "Account_DF13.testcase",
+      "testcase_path": "tests/ProvarRegressionSuite\\02- API_TestCases\\05- Force.com\\Account_DF13.testcase",
+      "error": "Execution failed",
+      "details": "Select the Lightning Application to extract Dynamic Form Layout.",
+      "source": "JUnit (20).xml",
+      "webBrowserType": "Chrome",
+      "projectCachePath": "workspace\\QAM_Classic\\..\\.provarCaches"
+    },
+    {
+      "testcase": "DateFormat_In_Excel.testcase",
+      "testcase_path": "tests/ProvarRegressionSuite\\02- API_TestCases\\08- Read & Write\\DateFormat_In_Excel.testcase",
+      "error": "Execution failed",
+      "details": "Invalid date string format: d-MMM-yyyy HH:mm:ss for date 10-Jul-2020 8:00:00",
+      "source": "JUnit (20).xml",
+      "webBrowserType": "Chrome",
+      "projectCachePath": "workspace\\QAM_Classic\\..\\.provarCaches"
+    },
+    {
+      "testcase": "Contact_Inside_VF_Assertions_And_Actions_PRO-19127.testcase",
+      "testcase_path": "tests/ProvarRegressionSuite\\01- UI Test Cases\\03 VF\\VFConsole\\Contact_Inside_VF_Assertions_And_Actions_PRO-19127.testcase",
+      "error": "Execution failed",
+      "details": "Assertion Failed.CreatedForTest EqualTo [View Org Chart]",
+      "source": "JUnit (20).xml",
+      "webBrowserType": "Chrome",
+      "projectCachePath": "workspace\\QAM_Classic\\..\\.provarCaches"
+    },
+    {
+      "testcase": "RenamingObjects.testcase",
+      "testcase_path": "tests/ProvarRegressionSuite\\01- UI Test Cases\\04 RenamingObject\\RenamingObjects.testcase",
+      "error": "Execution failed",
+      "details": "The control was not found.  Locator: By.xpath: ( //div[@id='InlineEditDialogContent']//div[contains(@class, 'inlineEditDiv') or contains(@class, 'inlineEditCompoundDiv')]/table//tr/td[contains(@class,'labelCol') and  ( .//text() = 'Rating' or normalize-space(.//text()) = 'Rating' )]/following-sibling::td[1] | //div[contains(@class,'pbBody') and not(//div[@id='InlineEditDialog' and contains(@style, 'visible')])]//div[contains(@class,'pbSubheader') and (h3/text()[not(parent::span)] = 'Account Information' or translate(normalize-space(h3/text()[not(parent::span)]), ' ', '') = translate(normalize-space('Account Information'), ' ', ''))]/following-sibling::div[contains(@class,'pbSubsection')][1]/table//tr/td[contains(@class,'labelCol') and  ( .//text() = 'Rating' or normalize-space(.//text()) = 'Rating' )]/following-sibling::td[1] )",
+      "source": "JUnit (20).xml",
+      "webBrowserType": "Chrome",
+      "projectCachePath": "workspace\\QAM_Classic\\..\\.provarCaches"
+    },
+    {
+      "testcase": "DynamicObject__.testcase",
+      "testcase_path": "tests/ProvarRegressionSuite\\01- UI Test Cases\\05 Custom Object\\DynamicObject__.testcase",
+      "error": "Execution failed",
+      "details": "[NullPointerException: Cannot invoke \"java.util.List.iterator()\" because the return value of \"com.provar.core.model.ui.api.IUiScreenMapping.getChildComponentMappings()\" is null\nStack Trace:\njava.lang.NullPointerException: Cannot invoke \"java.util.List.iterator()\" because the return value of \"com.provar.core.model.ui.api.IUiScreenMapping.getChildComponentMappings()\" is null\n\tat com.provar.plugins.forcedotcom.core.ui.SfRowLocatorSupport.resolveUiScreenMappingToXpath(SfRowLocatorSupport.java:522)\n\tat com.provar.plugins.forcedotcom.core.ui.SfRowLocatorSupport.resolveToXpath(SfRowLocatorSupport.java:237)\n\tat com.provar.plugins.forcedotcom.core.ui.SfUiHandler.resolveToXPath(SfUiHandler.java:6278)\n\tat com.provar.plugins.forcedotcom.core.ui.SeleniumUiHandler.resolveLocator(SeleniumUiHandler.java:5491)\n\tat com.provar.plugins.forcedotcom.core.ui.SfUiHandler.performRowOpenLayout(SfUiHandler.java:4830)\n\tat com.provar.plugins.forcedotcom.core.ui.SfUiHandler.performRowOpen(SfUiHandler.java:4666)\n\tat com.provar.plugins.forcedotcom.core.ui.SeleniumUiHandler.perform(SeleniumUiHandler.java:420)\n\tat com.provar.plugins.forcedotcom.core.connection.SfConnectionHandler.delegateToUiHandler(SfConnectionHandler.java:339)\n\tat com.provar.plugins.forcedotcom.core.connection.SfConnectionHandler.perform(SfConnectionHandler.java:330)\n\tat com.provar.core.testexecution.common.java.TestExecutionContextImpl.doConnectionOperation(TestExecutionContextImpl.java:866)\n\tat com.provar.plugins.forcedotcom.core.ui.UiWithRow.execute(UiWithRow.java:121)\n\tat java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)\n\tat java.base/java.lang.reflect.Method.invoke(Method.java:580)\n\tat com.provar.core.testexecution.container.java.TestExecutionContainerImpl.invokeTestApi(TestExecutionContainerImpl.java:806)\n\tat com.provar.core.testexecution.container.java.LocalTestExecutionContainerRunner.doInvokeTestApi(LocalTestExecutionContainerRunner.java:777)\n\tat com.provar.core.testexecution.container.java.LocalTestExecutionContainerRunner$MessageProcessor.run(LocalTestExecutionContainerRunner.java:1451)\n]",
+      "source": "JUnit (20).xml",
+      "webBrowserType": "Chrome",
+      "projectCachePath": "workspace\\QAM_Classic\\..\\.provarCaches"
+    },
+    {
+      "testcase": "Dynamic_Creation_Assertion_Edit.testcase",
+      "testcase_path": "tests/ProvarRegressionSuite\\01- UI Test Cases\\05 Custom Object\\Dynamic_Creation_Assertion_Edit.testcase",
+      "error": "Execution failed",
+      "details": "Assertion Failed.Regression Oauth EqualTo Admin1 Provar",
+      "source": "JUnit (20).xml",
+      "webBrowserType": "Chrome",
+      "projectCachePath": "workspace\\QAM_Classic\\..\\.provarCaches"
+    },
+    {
+      "testcase": "NamespaceCreate.testcase",
+      "testcase_path": "tests/ProvarRegressionSuite\\01- UI Test Cases\\07 Namespace Prefix\\NamespaceCreate.testcase",
+      "error": "Execution failed",
+      "details": "The control was not found.  Locator: By.xpath: //div[contains(@class,'bRelatedList')][1]//input[@name = 'new']",
+      "source": "JUnit (20).xml",
+      "webBrowserType": "Chrome",
+      "projectCachePath": "workspace\\QAM_Classic\\..\\.provarCaches"
+    },
+    {
+      "testcase": "NamespaceWithRecordType.testcase",
+      "testcase_path": "tests/ProvarRegressionSuite\\01- UI Test Cases\\07 Namespace Prefix\\NamespaceWithRecordType.testcase",
+      "error": "Execution failed",
+      "details": "The control was not found.  Locator: By.xpath: //div[contains(@class,'bRelatedList')][1]//input[@name = 'new']",
+      "source": "JUnit (20).xml",
+      "webBrowserType": "Chrome",
+      "projectCachePath": "workspace\\QAM_Classic\\..\\.provarCaches"
+    },
+    {
+      "testcase": "NamespaceWithRecordTypeList.testcase",
+      "testcase_path": "tests/ProvarRegressionSuite\\01- UI Test Cases\\07 Namespace Prefix\\NamespaceWithRecordTypeList.testcase",
+      "error": "Execution failed",
+      "details": "[TimeoutException: Expected condition failed: waiting for com.provar.plugins.forcedotcom.core.ui.SeleniumUiHandler$1@1738767c (tried for 60 second(s) with 500 milliseconds interval)\nBuild info: version: '4.16.1', revision: '9b4c83354e'\nSystem info: os.name: 'Windows Server 2022', os.arch: 'amd64', os.version: '10.0', java.version: '21.0.5'\nDriver info: org.openqa.selenium.chrome.ChromeDriver$ByteBuddy$hX66og9N\nCapabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 143.0.7499.41, chrome: {chromedriverVersion: 143.0.7499.41 (09d0e08b6226..., userDataDir: C:\\Users\\Administrator\\Docu...}, fedcm:accounts: true, goog:processID: 5328, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(direct), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}\nSession ID: ce5e0705056d69588776035584955572]",
+      "source": "JUnit (20).xml",
+      "webBrowserType": "Chrome",
+      "projectCachePath": "workspace\\QAM_Classic\\..\\.provarCaches"
+    },
+    {
+      "testcase": "Tab_Switching.testcase",
+      "testcase_path": "tests/ProvarRegressionSuite\\01- UI Test Cases\\09 ThreePanelLayout\\Tab_Switching.testcase",
+      "error": "Execution failed",
+      "details": "No rows were matched",
+      "source": "JUnit (20).xml",
+      "webBrowserType": "Chrome",
+      "projectCachePath": "workspace\\QAM_Classic\\..\\.provarCaches"
+    },
+    {
+      "testcase": "ThreePanelLayout_VF_InteractionLog.testcase",
+      "testcase_path": "tests/ProvarRegressionSuite\\01- UI Test Cases\\09 ThreePanelLayout\\ThreePanelLayout_VF_InteractionLog.testcase",
+      "error": "Execution failed",
+      "details": "Failed to resolve control locator. Locator: ui:locator?name=CaseNumber&binding=sf%3Aui%3Abinding%3Aobject%3Fobject%3DCase%26field%3DCaseNumber",
+      "source": "JUnit (20).xml",
+      "webBrowserType": "Chrome",
+      "projectCachePath": "workspace\\QAM_Classic\\..\\.provarCaches"
+    },
+    {
+      "testcase": "ThreePanellayout_Standard.testcase",
+      "testcase_path": "tests/ProvarRegressionSuite\\01- UI Test Cases\\09 ThreePanelLayout\\ThreePanellayout_Standard.testcase",
+      "error": "Execution failed",
+      "details": "Failed to resolve control locator. Locator: ui:locator?name=CaseNumber&binding=sf%3Aui%3Abinding%3Aobject%3Fobject%3DCase%26field%3DCaseNumber",
+      "source": "JUnit (20).xml",
+      "webBrowserType": "Chrome",
+      "projectCachePath": "workspace\\QAM_Classic\\..\\.provarCaches"
+    },
+    {
+      "testcase": "FARM-101 Footer Component_REG-2791.testcase",
+      "testcase_path": "tests/ProvarRegressionSuite\\01- UI Test Cases\\Bugs\\FARM-101 Footer Component_REG-2791.testcase",
+      "error": "Execution failed",
+      "details": "No rows found in table",
+      "source": "JUnit (20).xml",
+      "webBrowserType": "Chrome",
+      "projectCachePath": "workspace\\QAM_Classic\\..\\.provarCaches"
+    },
+    {
+      "testcase": "POC-520 Enxoo - Blank Space.testcase",
+      "testcase_path": "tests/ProvarRegressionSuite\\01- UI Test Cases\\Bugs\\POC-520 Enxoo - Blank Space.testcase",
+      "error": "Execution failed",
+      "details": "Assertion Failed.Regmain Oauth EqualTo Regmain Admin",
+      "source": "JUnit (20).xml",
+      "webBrowserType": "Chrome",
+      "projectCachePath": "workspace\\QAM_Classic\\..\\.provarCaches"
+    },
+    {
+      "testcase": "CrossBrowser.testcase",
+      "testcase_path": "tests/ProvarRegressionSuite\\01- UI Test Cases\\Mandatory_CrossBrowser\\CrossBrowser.testcase",
+      "error": "Execution failed",
+      "details": "Assertion Failed.Regression Oauth EqualTo Admin1 Provar",
+      "source": "JUnit (20).xml",
+      "webBrowserType": "Chrome",
+      "projectCachePath": "workspace\\QAM_Classic\\..\\.provarCaches"
+    },
+    {
+      "testcase": "Skuid Flow_PRO-11400.testcase",
+      "testcase_path": "tests/ProvarRegressionSuite\\01- UI Test Cases\\Skuid\\Skuid Flow_PRO-11400.testcase",
+      "error": "Execution failed",
+      "details": "Error doing interaction.  Connection Name: SkuidOrg, cause: [NoSuchElementException: No elements matched the field locator.  Field name: accountInformation\nFor documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception\nBuild info: version: '4.16.1', revision: '9b4c83354e'\nSystem info: os.name: 'Windows Server 2022', os.arch: 'amd64', os.version: '10.0', java.version: '21.0.5'\nDriver info: driver.version: ProvarSeleniumDriver]",
+      "source": "JUnit (20).xml",
+      "webBrowserType": "Chrome",
+      "projectCachePath": "workspace\\QAM_Classic\\..\\.provarCaches"
+    },
+    {
+      "testcase": "ChildToParentsToolingObject.testcase",
+      "testcase_path": "tests/ProvarRegressionSuite\\02- API_TestCases\\Tooling API\\ChildToParentsToolingObject.testcase",
+      "error": "Execution failed",
+      "details": "SSO Login failed. Connection name: SF_SSO, SSO Connection name: {1}, messages:",
+      "source": "JUnit (20).xml",
+      "webBrowserType": "Chrome",
+      "projectCachePath": "workspace\\QAM_Classic\\..\\.provarCaches"
+    },
+    {
+      "testcase": "ParentToChildToolingObject.testcase",
+      "testcase_path": "tests/ProvarRegressionSuite\\02- API_TestCases\\Tooling API\\ParentToChildToolingObject.testcase",
+      "error": "Execution failed",
+      "details": "SSO Login failed. Connection name: SF_SSO, SSO Connection name: {1}, messages:",
+      "source": "JUnit (20).xml",
+      "webBrowserType": "Chrome",
+      "projectCachePath": "workspace\\QAM_Classic\\..\\.provarCaches"
+    },
+    {
+      "testcase": "SampleToolingQuery.testcase",
+      "testcase_path": "tests/ProvarRegressionSuite\\02- API_TestCases\\Tooling API\\SampleToolingQuery.testcase",
+      "error": "Execution failed",
+      "details": "SSO Login failed. Connection name: SF_SSO, SSO Connection name: {1}, messages:",
+      "source": "JUnit (20).xml",
+      "webBrowserType": "Chrome",
+      "projectCachePath": "workspace\\QAM_Classic\\..\\.provarCaches"
+    },
+    {
+      "testcase": "SecurityHealthCheckRisks.testcase",
+      "testcase_path": "tests/ProvarRegressionSuite\\02- API_TestCases\\Tooling API\\SecurityHealthCheckRisks.testcase",
+      "error": "Execution failed",
+      "details": "SSO Login failed. Connection name: SF_SSO, SSO Connection name: {1}, messages:",
+      "source": "JUnit (20).xml",
+      "webBrowserType": "Chrome",
+      "projectCachePath": "workspace\\QAM_Classic\\..\\.provarCaches"
+    },
+    {
+      "testcase": "ToolingObjectAlias.testcase",
+      "testcase_path": "tests/ProvarRegressionSuite\\02- API_TestCases\\Tooling API\\ToolingObjectAlias.testcase",
+      "error": "Execution failed",
+      "details": "SSO Login failed. Connection name: SF_SSO, SSO Connection name: {1}, messages:",
+      "source": "JUnit (20).xml",
+      "webBrowserType": "Chrome",
+      "projectCachePath": "workspace\\QAM_Classic\\..\\.provarCaches"
+    },
+    {
+      "testcase": "ToolingObjectCOUNT.testcase",
+      "testcase_path": "tests/ProvarRegressionSuite\\02- API_TestCases\\Tooling API\\ToolingObjectCOUNT.testcase",
+      "error": "Execution failed",
+      "details": "SSO Login failed. Connection name: SF_SSO, SSO Connection name: {1}, messages:",
+      "source": "JUnit (20).xml",
+      "webBrowserType": "Chrome",
+      "projectCachePath": "workspace\\QAM_Classic\\..\\.provarCaches"
+    },
+    {
+      "testcase": "standardObjectAlias.testcase",
+      "testcase_path": "tests/ProvarRegressionSuite\\02- API_TestCases\\Tooling API\\standardObjectAlias.testcase",
+      "error": "Execution failed",
+      "details": "SSO Login failed. Connection name: SF_SSO, SSO Connection name: {1}, messages:",
+      "source": "JUnit (20).xml",
+      "webBrowserType": "Chrome",
+      "projectCachePath": "workspace\\QAM_Classic\\..\\.provarCaches"
+    }
+  ]
+}
