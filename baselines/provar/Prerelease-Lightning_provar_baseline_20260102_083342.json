@@ -1,0 +1,73 @@
+{
+  "id": "baseline_20260102_083342",
+  "project": "Prerelease-Lightning",
+  "platform": "provar",
+  "label": "Auto",
+  "created_at": "20260102_083342",
+  "failure_count": 7,
+  "failures": [
+    {
+      "testcase": "03- Account_Update.testcase",
+      "testcase_path": "tests/ProvarRegressionSuite\\01- UI Test Cases\\01 Sales\\Account\\03- Account_Update.testcase",
+      "error": "Execution failed",
+      "details": "Error doing interaction.  Connection Name: Bank_RetailDepartment, cause: [ElementNotInteractableException: element not interactable: [object HTMLLIElement] has no size and location\n  (Session info: chrome=143.0.7499.41)\nBuild info: version: '4.16.1', revision: '9b4c83354e'\nSystem info: os.name: 'Windows Server 2022', os.arch: 'amd64', os.version: '10.0', java.version: '21.0.5'\nDriver info: org.openqa.selenium.chrome.ChromeDriver$ByteBuddy$hOm7kzdy]",
+      "source": "JUnit (30).xml",
+      "webBrowserType": "Chrome",
+      "projectCachePath": "workspace\\Prerelease-Lightning\\..\\.provarCaches"
+    },
+    {
+      "testcase": "Sales_ColumnAssertion_Lookup.testcase",
+      "testcase_path": "tests/ProvarRegressionSuite\\01- UI Test Cases\\01 Sales\\Account\\Sales_ColumnAssertion_Lookup.testcase",
+      "error": "Execution failed",
+      "details": "Error doing interaction.  Connection Name: Bank_RetailDepartment, cause: [ElementNotInteractableException: element not interactable: [object HTMLLIElement] has no size and location\n  (Session info: chrome=143.0.7499.41)\nBuild info: version: '4.16.1', revision: '9b4c83354e'\nSystem info: os.name: 'Windows Server 2022', os.arch: 'amd64', os.version: '10.0', java.version: '21.0.5'\nDriver info: org.openqa.selenium.chrome.ChromeDriver$ByteBuddy$73WARsn5]",
+      "source": "JUnit (30).xml",
+      "webBrowserType": "Chrome",
+      "projectCachePath": "workspace\\Prerelease-Lightning\\..\\.provarCaches"
+    },
+    {
+      "testcase": "UAT_ProductionSelector.testcase",
+      "testcase_path": "tests/ProvarRegressionSuite\\01- UI Test Cases\\03 VF\\Embeded VF\\UAT_ProductionSelector.testcase",
+      "error": "Execution failed",
+      "details": "Error doing interaction.  Connection Name: Bank_RetailDepartment, cause: [ElementNotInteractableException: element not interactable: [object HTMLLIElement] has no size and location\n  (Session info: chrome=143.0.7499.41)\nBuild info: version: '4.16.1', revision: '9b4c83354e'\nSystem info: os.name: 'Windows Server 2022', os.arch: 'amd64', os.version: '10.0', java.version: '21.0.5'\nDriver info: org.openqa.selenium.chrome.ChromeDriver$ByteBuddy$ruqPrDMx]",
+      "source": "JUnit (30).xml",
+      "webBrowserType": "Chrome",
+      "projectCachePath": "workspace\\Prerelease-Lightning\\..\\.provarCaches"
+    },
+    {
+      "testcase": "Contact_Inside_VF_Assertions_And_Actions_PRO-19127.testcase",
+      "testcase_path": "tests/ProvarRegressionSuite\\01- UI Test Cases\\03 VF\\VFConsole\\Contact_Inside_VF_Assertions_And_Actions_PRO-19127.testcase",
+      "error": "Execution failed",
+      "details": "Assertion Failed.CreatedForTest EqualTo [View Org Chart]",
+      "source": "JUnit (30).xml",
+      "webBrowserType": "Chrome",
+      "projectCachePath": "workspace\\Prerelease-Lightning\\..\\.provarCaches"
+    },
+    {
+      "testcase": "RenamingObjects.testcase",
+      "testcase_path": "tests/ProvarRegressionSuite\\01- UI Test Cases\\04 RenamingObject\\RenamingObjects.testcase",
+      "error": "Execution failed",
+      "details": "The control was not found.  Locator: By.xpath: ( //div[@id='InlineEditDialogContent']//div[contains(@class, 'inlineEditDiv') or contains(@class, 'inlineEditCompoundDiv')]/table//tr/td[contains(@class,'labelCol') and  ( .//text() = 'Rating' or normalize-space(.//text()) = 'Rating' )]/following-sibling::td[1] | //div[contains(@class,'pbBody') and not(//div[@id='InlineEditDialog' and contains(@style, 'visible')])]//div[contains(@class,'pbSubheader') and (h3/text()[not(parent::span)] = 'Account Information' or translate(normalize-space(h3/text()[not(parent::span)]), ' ', '') = translate(normalize-space('Account Information'), ' ', ''))]/following-sibling::div[contains(@class,'pbSubsection')][1]/table//tr/td[contains(@class,'labelCol') and  ( .//text() = 'Rating' or normalize-space(.//text()) = 'Rating' )]/following-sibling::td[1] )",
+      "source": "JUnit (30).xml",
+      "webBrowserType": "Chrome",
+      "projectCachePath": "workspace\\Prerelease-Lightning\\..\\.provarCaches"
+    },
+    {
+      "testcase": "Dynamic_Creation_Assertion_Edit.testcase",
+      "testcase_path": "tests/ProvarRegressionSuite\\01- UI Test Cases\\05 Custom Object\\Dynamic_Creation_Assertion_Edit.testcase",
+      "error": "Execution failed",
+      "details": "Assertion Failed.Regression Oauth EqualTo Admin1 Provar",
+      "source": "JUnit (30).xml",
+      "webBrowserType": "Chrome",
+      "projectCachePath": "workspace\\Prerelease-Lightning\\..\\.provarCaches"
+    },
+    {
+      "testcase": "Lightning Component on Contacts view.testcase",
+      "testcase_path": "tests/ProvarRegressionSuite\\01- UI Test Cases\\LightningComponent\\Lightning Component on Contacts view.testcase",
+      "error": "Execution failed",
+      "details": "No rows found in table",
+      "source": "JUnit (30).xml",
+      "webBrowserType": "Chrome",
+      "projectCachePath": "workspace\\Prerelease-Lightning\\..\\.provarCaches"
+    }
+  ]
+}
