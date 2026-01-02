@@ -1,0 +1,46 @@
+{
+  "id": "baseline_20260102_083354",
+  "project": "DynamicForm",
+  "platform": "provar",
+  "label": "Auto",
+  "created_at": "20260102_083354",
+  "failure_count": 4,
+  "failures": [
+    {
+      "testcase": "AccountCompactView.testcase",
+      "testcase_path": "tests/DynamicForm\\EinsteinSearch\\CompactView\\AccountCompactView.testcase",
+      "error": "Execution failed",
+      "details": "Failed to create Object.  Error Messages: Account: bad field names on insert/update call: Phone",
+      "source": "JUnit (28).xml",
+      "webBrowserType": "Chrome",
+      "projectCachePath": "workspace\\DynamicForm\\..\\.provarCaches"
+    },
+    {
+      "testcase": "ContactCompactView.testcase",
+      "testcase_path": "tests/DynamicForm\\EinsteinSearch\\CompactView\\ContactCompactView.testcase",
+      "error": "Execution failed",
+      "details": "Failed to create Object.  Error Messages: Contact: bad field names on insert/update call: AccountId",
+      "source": "JUnit (28).xml",
+      "webBrowserType": "Chrome",
+      "projectCachePath": "workspace\\DynamicForm\\..\\.provarCaches"
+    },
+    {
+      "testcase": "UserTableView.testcase",
+      "testcase_path": "tests/DynamicForm\\EinsteinSearch\\TableView\\UserTableView.testcase",
+      "error": "Execution failed",
+      "details": "[TimeoutException: Expected condition failed: waiting for presence of element located by: By.xpath: //div[contains(@class, 'active') and (contains(@class, 'oneContent') or contains(@class, 'main-content'))]//*[(self::search_nls-grid-header)or (div[contains(@Class,'forceSearchSearchResultsGridHeader') and (.//h2[.='Users'])])]//following-sibling::div[contains(@class,'forceSearchResultsGridView') or contains(@class, 'forceSearchResultsGridLVM')]//table//tbody//tr (tried for 5 second(s) with 500 milliseconds interval), NoSuchElementException: no such element: Unable to locate element: {\"method\":\"xpath\",\"selector\":\"//div[contains(@class, 'active') and (contains(@class, 'oneContent') or contains(@class, 'main-content'))]//*[(self::search_nls-grid-header)or (div[contains(@Class,'forceSearchSearchResultsGridHeader') and (.//h2[.='Users'])])]//following-sibling::div[contains(@class,'forceSearchResultsGridView') or contains(@class, 'forceSearchResultsGridLVM')]//table//tbody//tr\"}\n  (Session info: chrome=143.0.7499.41)\nFor documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception\nBuild info: version: '4.16.1', revision: '9b4c83354e'\nSystem info: os.name: 'Windows Server 2022', os.arch: 'amd64', os.version: '10.0', java.version: '21.0.5'\nDriver info: org.openqa.selenium.chrome.ChromeDriver$ByteBuddy$5V5Svg1T]",
+      "source": "JUnit (28).xml",
+      "webBrowserType": "Chrome",
+      "projectCachePath": "workspace\\DynamicForm\\..\\.provarCaches"
+    },
+    {
+      "testcase": "SearchText.testcase",
+      "testcase_path": "tests/DynamicForm\\GlobalSearch\\SearchText.testcase",
+      "error": "Execution failed",
+      "details": "The field did not resolve to a WebElement.  Page Object: null, Page Object class: com.provar.core.model.ui.java.WebElementRow, field: ACCOUNT_PHONE1",
+      "source": "JUnit (28).xml",
+      "webBrowserType": "Chrome",
+      "projectCachePath": "workspace\\DynamicForm\\..\\.provarCaches"
+    }
+  ]
+}
