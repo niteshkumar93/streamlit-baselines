@@ -1,0 +1,91 @@
+{
+  "id": "baseline_20260102_062343",
+  "project": "QAM_Lightning",
+  "platform": "provar",
+  "label": "Auto",
+  "created_at": "20260102_062343",
+  "failure_count": 9,
+  "failures": [
+    {
+      "testcase": "01- Case Update.testcase",
+      "testcase_path": "tests/ProvarRegressionSuite\\01- UI Test Cases\\01 Sales\\Case\\01- Case Update.testcase",
+      "error": "Execution failed",
+      "details": "Error doing interaction.  Connection Name: Bank_RetailDepartment, cause: [ElementNotInteractableException: element not interactable: [object HTMLLIElement] has no size and location\n  (Session info: chrome=143.0.7499.41)\nBuild info: version: '4.16.1', revision: '9b4c83354e'\nSystem info: os.name: 'Windows Server 2022', os.arch: 'amd64', os.version: '10.0', java.version: '21.0.5'\nDriver info: org.openqa.selenium.chrome.ChromeDriver$ByteBuddy$9hJEKm3c]",
+      "source": "JUnit (22).xml",
+      "webBrowserType": "Chrome",
+      "projectCachePath": "workspace\\QAM_Lightning\\..\\.provarCaches"
+    },
+    {
+      "testcase": "02- Contact_Update.testcase",
+      "testcase_path": "tests/ProvarRegressionSuite\\01- UI Test Cases\\01 Sales\\Contact\\02- Contact_Update.testcase",
+      "error": "Execution failed",
+      "details": "Assertion Failed.India Contains 937571",
+      "source": "JUnit (22).xml",
+      "webBrowserType": "Chrome",
+      "projectCachePath": "workspace\\QAM_Lightning\\..\\.provarCaches"
+    },
+    {
+      "testcase": "02 - Lead_Update.testcase",
+      "testcase_path": "tests/ProvarRegressionSuite\\01- UI Test Cases\\01 Sales\\Lead\\02 - Lead_Update.testcase",
+      "error": "Execution failed",
+      "details": "The control was not found.  Locator: By.xpath: ( //div[@id='InlineEditDialogContent']//div[contains(@class, 'inlineEditDiv') or contains(@class, 'inlineEditCompoundDiv')]/table//tr/td[contains(@class,'labelCol') and  ( .//text() = 'Phone' or normalize-space(.//text()) = 'Phone' )]/following-sibling::td[1] | //div[contains(@class,'pbBody') and not(//div[@id='InlineEditDialog' and contains(@style, 'visible')])]//div[contains(@class,'pbSubsection')][1]/table//tr/td[contains(@class,'labelCol') and  ( .//text() = 'Phone' or normalize-space(.//text()) = 'Phone' )]/following-sibling::td[1] )",
+      "source": "JUnit (22).xml",
+      "webBrowserType": "Chrome",
+      "projectCachePath": "workspace\\QAM_Lightning\\..\\.provarCaches"
+    },
+    {
+      "testcase": "CasesMapping_Sales.testcase",
+      "testcase_path": "tests/ProvarRegressionSuite\\01- UI Test Cases\\03 VF\\Embeded VF\\CasesMapping_Sales.testcase",
+      "error": "Execution failed",
+      "details": "Error doing interaction.  Connection Name: Bank_RetailDepartment, cause: [ElementClickInterceptedException: element click intercepted: Element <iframe lwc-3q5onqa2l97=\"\" height=\"100%\" width=\"100%\" scrolling=\"yes\" allowtransparency=\"true\" name=\"vfFrameId_1764789375468\" title=\"accessibility title\" allowfullscreen=\"true\" lang=\"en-US\" allow=\"geolocation *; microphone *; camera *; display-capture *\" tabindex=\"0\" cd_frame_id_=\"f4351286e757a6b514cb8cbb7d2a8cc4\"></iframe> is not clickable at point (778, 114). Other element would receive the click: <a tabindex=\"-1\" href=\"javascript:void(0);\" class=\"slds-notification__target slds-media\" data-aura-rendered-by=\"888:0\">...</a>\n  (Session info: chrome=143.0.7499.41)\nBuild info: version: '4.16.1', revision: '9b4c83354e'\nSystem info: os.name: 'Windows Server 2022', os.arch: 'amd64', os.version: '10.0', java.version: '21.0.5'\nDriver info: org.openqa.selenium.chrome.ChromeDriver$ByteBuddy$HhWSBSb0]",
+      "source": "JUnit (22).xml",
+      "webBrowserType": "Chrome",
+      "projectCachePath": "workspace\\QAM_Lightning\\..\\.provarCaches"
+    },
+    {
+      "testcase": "UAT_ProductionSelector.testcase",
+      "testcase_path": "tests/ProvarRegressionSuite\\01- UI Test Cases\\03 VF\\Embeded VF\\UAT_ProductionSelector.testcase",
+      "error": "Execution failed",
+      "details": "Error doing interaction.  Connection Name: Bank_RetailDepartment, cause: [ElementNotInteractableException: element not interactable: [object HTMLLIElement] has no size and location\n  (Session info: chrome=143.0.7499.41)\nBuild info: version: '4.16.1', revision: '9b4c83354e'\nSystem info: os.name: 'Windows Server 2022', os.arch: 'amd64', os.version: '10.0', java.version: '21.0.5'\nDriver info: org.openqa.selenium.chrome.ChromeDriver$ByteBuddy$aZUWKbZN]",
+      "source": "JUnit (22).xml",
+      "webBrowserType": "Chrome",
+      "projectCachePath": "workspace\\QAM_Lightning\\..\\.provarCaches"
+    },
+    {
+      "testcase": "Contact_Inside_VF_Assertions_And_Actions_PRO-19127.testcase",
+      "testcase_path": "tests/ProvarRegressionSuite\\01- UI Test Cases\\03 VF\\VFConsole\\Contact_Inside_VF_Assertions_And_Actions_PRO-19127.testcase",
+      "error": "Execution failed",
+      "details": "Assertion Failed.CreatedForTest EqualTo [View Org Chart]",
+      "source": "JUnit (22).xml",
+      "webBrowserType": "Chrome",
+      "projectCachePath": "workspace\\QAM_Lightning\\..\\.provarCaches"
+    },
+    {
+      "testcase": "RenamingObjects.testcase",
+      "testcase_path": "tests/ProvarRegressionSuite\\01- UI Test Cases\\04 RenamingObject\\RenamingObjects.testcase",
+      "error": "Execution failed",
+      "details": "The control was not found.  Locator: By.xpath: ( //div[@id='InlineEditDialogContent']//div[contains(@class, 'inlineEditDiv') or contains(@class, 'inlineEditCompoundDiv')]/table//tr/td[contains(@class,'labelCol') and  ( .//text() = 'Rating' or normalize-space(.//text()) = 'Rating' )]/following-sibling::td[1] | //div[contains(@class,'pbBody') and not(//div[@id='InlineEditDialog' and contains(@style, 'visible')])]//div[contains(@class,'pbSubheader') and (h3/text()[not(parent::span)] = 'Account Information' or translate(normalize-space(h3/text()[not(parent::span)]), ' ', '') = translate(normalize-space('Account Information'), ' ', ''))]/following-sibling::div[contains(@class,'pbSubsection')][1]/table//tr/td[contains(@class,'labelCol') and  ( .//text() = 'Rating' or normalize-space(.//text()) = 'Rating' )]/following-sibling::td[1] )",
+      "source": "JUnit (22).xml",
+      "webBrowserType": "Chrome",
+      "projectCachePath": "workspace\\QAM_Lightning\\..\\.provarCaches"
+    },
+    {
+      "testcase": "Dynamic_Creation_Assertion_Edit.testcase",
+      "testcase_path": "tests/ProvarRegressionSuite\\01- UI Test Cases\\05 Custom Object\\Dynamic_Creation_Assertion_Edit.testcase",
+      "error": "Execution failed",
+      "details": "Assertion Failed.Regression Oauth EqualTo Admin1 Provar",
+      "source": "JUnit (22).xml",
+      "webBrowserType": "Chrome",
+      "projectCachePath": "workspace\\QAM_Lightning\\..\\.provarCaches"
+    },
+    {
+      "testcase": "Lightning Component on Contacts view.testcase",
+      "testcase_path": "tests/ProvarRegressionSuite\\01- UI Test Cases\\LightningComponent\\Lightning Component on Contacts view.testcase",
+      "error": "Execution failed",
+      "details": "No rows found in table",
+      "source": "JUnit (22).xml",
+      "webBrowserType": "Chrome",
+      "projectCachePath": "workspace\\QAM_Lightning\\..\\.provarCaches"
+    }
+  ]
+}
