@@ -1,0 +1,28 @@
+{
+  "id": "baseline_20260102_083306",
+  "project": "Smoke_LS_Windows",
+  "platform": "provar",
+  "label": "Auto",
+  "created_at": "20260102_083306",
+  "failure_count": 2,
+  "failures": [
+    {
+      "testcase": "Accounts CLA Test Link-REG-5241.testcase",
+      "testcase_path": "tests/Regression\\03 - Lightning Sales\\View\\CustomLinks\\Custom Link Actions\\Accounts Custom Link Actions\\Accounts CLA Test Link-REG-5241.testcase",
+      "error": "Execution failed",
+      "details": "Error doing interaction.  Connection Name: RegressionOrg, cause: [NoSuchElementException: No elements matched the field locator.  Field name: Alphabet\nFor documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception\nBuild info: version: '4.16.1', revision: '9b4c83354e'\nSystem info: os.name: 'Windows Server 2022', os.arch: 'amd64', os.version: '10.0', java.version: '21.0.5'\nDriver info: driver.version: ProvarSeleniumDriver]",
+      "source": "JUnit (38).xml",
+      "webBrowserType": "Chrome",
+      "projectCachePath": "workspace\\Smoke_LS_Windows\\..\\.provarCaches"
+    },
+    {
+      "testcase": "Leads CLA Google Search-REG-5241.testcase",
+      "testcase_path": "tests/Regression\\03 - Lightning Sales\\View\\CustomLinks\\Custom Link Actions\\Leads Custom Link Actions\\Leads CLA Google Search-REG-5241.testcase",
+      "error": "Execution failed",
+      "details": "Error doing interaction.  Connection Name: RegressionOrg, cause: [NoSuchElementException: No elements matched the field locator.  Field name: Alphabet\nFor documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception\nBuild info: version: '4.16.1', revision: '9b4c83354e'\nSystem info: os.name: 'Windows Server 2022', os.arch: 'amd64', os.version: '10.0', java.version: '21.0.5'\nDriver info: driver.version: ProvarSeleniumDriver]",
+      "source": "JUnit (38).xml",
+      "webBrowserType": "Chrome",
+      "projectCachePath": "workspace\\Smoke_LS_Windows\\..\\.provarCaches"
+    }
+  ]
+}
