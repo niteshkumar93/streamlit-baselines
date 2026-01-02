@@ -1,0 +1,55 @@
+{
+  "id": "baseline_20260102_083400",
+  "project": "Lightning_Console_LogonAs",
+  "platform": "provar",
+  "label": "Auto",
+  "created_at": "20260102_083400",
+  "failure_count": 5,
+  "failures": [
+    {
+      "testcase": "Leads Edit Field Assertion.testcase",
+      "testcase_path": "tests/Regression\\04 - Lightning Console\\Standard\\Edit\\Edit Value and Label Assertion\\Leads Edit Field Assertion.testcase",
+      "error": "Execution failed",
+      "details": "Assertion Failed.Test Reg Ouath EqualTo Admin1 Provar",
+      "source": "JUnit (27).xml",
+      "webBrowserType": "Chrome",
+      "projectCachePath": "workspace\\Lightning_Console_LogonAs\\..\\.provarCaches"
+    },
+    {
+      "testcase": "Assertions on Leads Home LV.testcase",
+      "testcase_path": "tests/Regression\\04 - Lightning Console\\Standard\\List Views\\Leads\\Assertions on Leads Home LV.testcase",
+      "error": "Execution failed",
+      "details": "Error doing interaction.  Connection Name: RegressionOrg, cause: [ElementNotInteractableException: element not interactable\n  (Session info: chrome=143.0.7499.41)\nBuild info: version: '4.16.1', revision: '9b4c83354e'\nSystem info: os.name: 'Windows Server 2022', os.arch: 'amd64', os.version: '10.0', java.version: '21.0.5'\nDriver info: org.openqa.selenium.chrome.ChromeDriver$ByteBuddy$olN7AeUS]",
+      "source": "JUnit (27).xml",
+      "webBrowserType": "Chrome",
+      "projectCachePath": "workspace\\Lightning_Console_LogonAs\\..\\.provarCaches"
+    },
+    {
+      "testcase": "Assertion on All Opp LV.testcase",
+      "testcase_path": "tests/Regression\\04 - Lightning Console\\Standard\\List Views\\Opportunities\\Assertion on All Opp LV.testcase",
+      "error": "Execution failed",
+      "details": "List view not found with label.  Selector: All Opportunities",
+      "source": "JUnit (27).xml",
+      "webBrowserType": "Chrome",
+      "projectCachePath": "workspace\\Lightning_Console_LogonAs\\..\\.provarCaches"
+    },
+    {
+      "testcase": "Google_Campaign_NewScreen_PageError_Assertion.testcase",
+      "testcase_path": "tests/Regression\\04 - Lightning Console\\Standard\\Related Lists\\Opportunity\\Google Campaign\\Google_Campaign_NewScreen_PageError_Assertion.testcase",
+      "error": "Execution failed",
+      "details": "The control was not found.  Locator: By.xpath: //td[@id = 'topButtonRow' or @id = 'bottomButtonRow'][1]//input[(@type='button' or @type='submit') and (@name='save')]",
+      "source": "JUnit (27).xml",
+      "webBrowserType": "Chrome",
+      "projectCachePath": "workspace\\Lightning_Console_LogonAs\\..\\.provarCaches"
+    },
+    {
+      "testcase": "Product add workflow.testcase",
+      "testcase_path": "tests/Regression\\04 - Lightning Console\\Standard\\Related Lists\\Opportunity\\Product\\Product add workflow.testcase",
+      "error": "Execution failed",
+      "details": "The row locator did not match any rows.",
+      "source": "JUnit (27).xml",
+      "webBrowserType": "Chrome",
+      "projectCachePath": "workspace\\Lightning_Console_LogonAs\\..\\.provarCaches"
+    }
+  ]
+}
