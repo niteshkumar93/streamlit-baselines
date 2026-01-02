@@ -1,0 +1,145 @@
+{
+  "id": "baseline_20260102_083412",
+  "project": "Regmain-Flexi",
+  "platform": "provar",
+  "label": "Auto",
+  "created_at": "20260102_083412",
+  "failure_count": 15,
+  "failures": [
+    {
+      "testcase": "Recent Items.testcase",
+      "testcase_path": "tests/Regression\\09 - UtilityBar\\LightningSales\\Recent Items.testcase",
+      "error": "Execution failed",
+      "details": "Assertion Failed.Ravindra Yadav EqualTo Regmain Admin",
+      "source": "JUnit (25).xml",
+      "webBrowserType": "Chrome",
+      "projectCachePath": "workspace\\Regmain-Flexi\\..\\.provarCaches"
+    },
+    {
+      "testcase": "Case_LightningComponent_Aura pro-19040.testcase",
+      "testcase_path": "tests/Regression\\07 - QuickActions\\LS\\ObjectSpecific\\Standard\\Case\\Case_LightningComponent_Aura pro-19040.testcase",
+      "error": "Execution failed",
+      "details": "The row locator did not match any rows.",
+      "source": "JUnit (25).xml",
+      "webBrowserType": "Chrome",
+      "projectCachePath": "workspace\\Regmain-Flexi\\..\\.provarCaches"
+    },
+    {
+      "testcase": "Standard Global Action - F.testcase",
+      "testcase_path": "tests/Regression\\07 - QuickActions\\Standard Global Action - F.testcase",
+      "error": "Execution failed",
+      "details": "The Salesforce Object definition could not be found.  Target: sf:ui:target?action=QuickAction&quickAction=LogACall, object: null",
+      "source": "JUnit (25).xml",
+      "webBrowserType": "Chrome",
+      "projectCachePath": "workspace\\Regmain-Flexi\\..\\.provarCaches"
+    },
+    {
+      "testcase": "PCO_Header and Left Sidebar.testcase",
+      "testcase_path": "tests/Regression\\08-Flexi\\DynamicForm\\PCO_Header and Left Sidebar.testcase",
+      "error": "Execution failed",
+      "details": "Assertion Failed.Regmain Oauth Automation EqualTo Regmain Admin",
+      "source": "JUnit (25).xml",
+      "webBrowserType": "Chrome",
+      "projectCachePath": "workspace\\Regmain-Flexi\\..\\.provarCaches"
+    },
+    {
+      "testcase": "PCO_Header and Three Region.testcase",
+      "testcase_path": "tests/Regression\\08-Flexi\\DynamicForm\\PCO_Header and Three Region.testcase",
+      "error": "Execution failed",
+      "details": "Assertion Failed.Regmain Oauth Automation EqualTo Regmain Admin",
+      "source": "JUnit (25).xml",
+      "webBrowserType": "Chrome",
+      "projectCachePath": "workspace\\Regmain-Flexi\\..\\.provarCaches"
+    },
+    {
+      "testcase": "Entitlement_ST_Pinned header and leftsidebar.testcase",
+      "testcase_path": "tests/Regression\\08-Flexi\\Failing TC\\Entitlement_ST_Pinned header and leftsidebar.testcase",
+      "error": "Execution failed",
+      "details": "The row locator did not match any rows.",
+      "source": "JUnit (25).xml",
+      "webBrowserType": "Chrome",
+      "projectCachePath": "workspace\\Regmain-Flexi\\..\\.provarCaches"
+    },
+    {
+      "testcase": "QuickLinks(Notes)_3R.testcase",
+      "testcase_path": "tests/Regression\\08-Flexi\\Failing TC\\QuickLinks(Notes)_3R.testcase",
+      "error": "Execution failed",
+      "details": "Assertion Failed.04/12/2025 02:28 Contains 03/12/2025",
+      "source": "JUnit (25).xml",
+      "webBrowserType": "Chrome",
+      "projectCachePath": "workspace\\Regmain-Flexi\\..\\.provarCaches"
+    },
+    {
+      "testcase": "Console_Pinned_HLS_3R.testcase",
+      "testcase_path": "tests/Regression\\08-Flexi\\Record Details\\CustomConsole\\Console_Pinned_HLS_3R.testcase",
+      "error": "Execution failed",
+      "details": "Assertion Failed.Regmain Oauth EqualTo Regmain Admin",
+      "source": "JUnit (25).xml",
+      "webBrowserType": "Chrome",
+      "projectCachePath": "workspace\\Regmain-Flexi\\..\\.provarCaches"
+    },
+    {
+      "testcase": "Console_Pinned_Left_and_right_Sidebar.testcase",
+      "testcase_path": "tests/Regression\\08-Flexi\\Record Details\\CustomConsole\\Console_Pinned_Left_and_right_Sidebar.testcase",
+      "error": "Execution failed",
+      "details": "Assertion Failed.Regmain Oauth EqualTo Regmain Admin",
+      "source": "JUnit (25).xml",
+      "webBrowserType": "Chrome",
+      "projectCachePath": "workspace\\Regmain-Flexi\\..\\.provarCaches"
+    },
+    {
+      "testcase": "CustomObj-Case_CT_1 Column.testcase",
+      "testcase_path": "tests/Regression\\08-Flexi\\Related Lists\\CustomConsole\\CustomObj-Case_CT_1 Column.testcase",
+      "error": "Execution failed",
+      "details": "Assertion Failed.04/12/2025 03:44 Contains 03/12/2025",
+      "source": "JUnit (25).xml",
+      "webBrowserType": "Chrome",
+      "projectCachePath": "workspace\\Regmain-Flexi\\..\\.provarCaches"
+    },
+    {
+      "testcase": "CT_NotesAndAttachment.testcase",
+      "testcase_path": "tests/Regression\\08-Flexi\\Related Lists\\CustomLightning\\CT_NotesAndAttachment.testcase",
+      "error": "Execution failed",
+      "details": "The row locator did not match any rows.",
+      "source": "JUnit (25).xml",
+      "webBrowserType": "Chrome",
+      "projectCachePath": "workspace\\Regmain-Flexi\\..\\.provarCaches"
+    },
+    {
+      "testcase": "NotesAndAttachment_ST_H_R.testcase",
+      "testcase_path": "tests/Regression\\08-Flexi\\Related Lists\\FlexipageConsole\\NotesAndAttachment_ST_H_R.testcase",
+      "error": "Execution failed",
+      "details": "The row locator did not match any rows.",
+      "source": "JUnit (25).xml",
+      "webBrowserType": "Chrome",
+      "projectCachePath": "workspace\\Regmain-Flexi\\..\\.provarCaches"
+    },
+    {
+      "testcase": "Entitlement_CT_H_S_L.testcase",
+      "testcase_path": "tests/Regression\\08-Flexi\\Related Lists\\FlexipageRegression\\Entitlement_CT_H_S_L.testcase",
+      "error": "Execution failed",
+      "details": "The row locator did not match any rows.",
+      "source": "JUnit (25).xml",
+      "webBrowserType": "Chrome",
+      "projectCachePath": "workspace\\Regmain-Flexi\\..\\.provarCaches"
+    },
+    {
+      "testcase": "Console Pinned Header_RLQuickLink.testcase",
+      "testcase_path": "tests/Regression\\08-Flexi\\Templates\\Console Pinned Header_RLQuickLink.testcase",
+      "error": "Execution failed",
+      "details": "Error doing interaction.  Connection Name: Regmain, cause: [StaleElementReferenceException: stale element reference: stale element not found in the current frame\n  (Session info: chrome=143.0.7499.41)\nFor documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#stale-element-reference-exception\nBuild info: version: '4.16.1', revision: '9b4c83354e'\nSystem info: os.name: 'Windows Server 2022', os.arch: 'amd64', os.version: '10.0', java.version: '21.0.5'\nDriver info: org.openqa.selenium.chrome.ChromeDriver$ByteBuddy$AG1QYsTt]",
+      "source": "JUnit (25).xml",
+      "webBrowserType": "Chrome",
+      "projectCachePath": "workspace\\Regmain-Flexi\\..\\.provarCaches"
+    },
+    {
+      "testcase": "Home Page.testcase",
+      "testcase_path": "tests/Regression\\08-Flexi\\Templates\\Home Page.testcase",
+      "error": "Execution failed",
+      "details": "The Salesforce Object could not be found.  Locator: sf:ui:locator:row?table=List%2FlistView%2FlistTable, Object: null",
+      "source": "JUnit (25).xml",
+      "webBrowserType": "Chrome",
+      "projectCachePath": "workspace\\Regmain-Flexi\\..\\.provarCaches"
+    }
+  ]
+}
