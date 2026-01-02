@@ -1,0 +1,73 @@
+{
+  "id": "baseline_20260102_083313",
+  "project": "Smoke_CC_Windows",
+  "platform": "provar",
+  "label": "Auto",
+  "created_at": "20260102_083313",
+  "failure_count": 7,
+  "failures": [
+    {
+      "testcase": "Assertion on Cases Custom LV.testcase",
+      "testcase_path": "tests/Regression\\02 - Classic Console\\Standard\\List Views\\Cases\\Assertion on Cases Custom LV.testcase",
+      "error": "Execution failed",
+      "details": "Assertion Failed.00250001 EqualTo 00253322",
+      "source": "JUnit (37).xml",
+      "webBrowserType": "Chrome",
+      "projectCachePath": "workspace\\Smoke_CC_Windows\\..\\.provarCaches"
+    },
+    {
+      "testcase": "RL Assertions.testcase",
+      "testcase_path": "tests/Regression\\02 - Classic Console\\Standard\\Related Lists\\Accounts\\Open Activities\\RL Assertions.testcase",
+      "error": "Execution failed",
+      "details": "Assertion Failed.Regmain Oauth Automation EqualTo Regmain Admin",
+      "source": "JUnit (37).xml",
+      "webBrowserType": "Chrome",
+      "projectCachePath": "workspace\\Smoke_CC_Windows\\..\\.provarCaches"
+    },
+    {
+      "testcase": "Lead View Convert Button.testcase",
+      "testcase_path": "tests/Regression\\02 - Classic Console\\Standard\\View\\Buttons\\Clicks\\Leads View Buttons Action\\Lead View Convert Button.testcase",
+      "error": "Execution failed",
+      "details": "The row locator did not match any rows.",
+      "source": "JUnit (37).xml",
+      "webBrowserType": "Chrome",
+      "projectCachePath": "workspace\\Smoke_CC_Windows\\..\\.provarCaches"
+    },
+    {
+      "testcase": "Opportunity View Delete Button -REG-3106.testcase",
+      "testcase_path": "tests/Regression\\02 - Classic Console\\Standard\\View\\Buttons\\Clicks\\Opportunity View Buttons Action\\Opportunity View Delete Button -REG-3106.testcase",
+      "error": "Execution failed",
+      "details": "Failed to resolve control locator. Locator: ui:locator?name=Name&binding=sf%3Aui%3Abinding%3Aobject%3Fobject%3DOpportunity%26field%3DName",
+      "source": "JUnit (37).xml",
+      "webBrowserType": "Chrome",
+      "projectCachePath": "workspace\\Smoke_CC_Windows\\..\\.provarCaches"
+    },
+    {
+      "testcase": "Contacts CLA Google Maps.testcase",
+      "testcase_path": "tests/Regression\\02 - Classic Console\\Standard\\View\\CustomLinks\\Custom Link Actions\\Contacts Custom Link Actions\\Contacts CLA Google Maps.testcase",
+      "error": "Execution failed",
+      "details": "The PageObject's built-in wait failed.  Cause: [TimeoutException: Expected condition failed: waiting for com.provar.core.testapi.FieldWait$1@7e614a75 (tried for 10 second(s) with 500 milliseconds interval)\nBuild info: version: '4.16.1', revision: '9b4c83354e'\nSystem info: os.name: 'Windows Server 2022', os.arch: 'amd64', os.version: '10.0', java.version: '21.0.5'\nDriver info: org.openqa.selenium.chrome.ChromeDriver$ByteBuddy$sMNWUtmW\nCapabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 143.0.7499.41, chrome: {chromedriverVersion: 143.0.7499.41 (09d0e08b6226..., userDataDir: C:\\Users\\Administrator\\Docu...}, fedcm:accounts: true, goog:processID: 3520, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(direct), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}\nSession ID: 43d1073be293006dbe7db8ed756cab96]",
+      "source": "JUnit (37).xml",
+      "webBrowserType": "Chrome",
+      "projectCachePath": "workspace\\Smoke_CC_Windows\\..\\.provarCaches"
+    },
+    {
+      "testcase": "Contacts CLA Google Search.testcase",
+      "testcase_path": "tests/Regression\\02 - Classic Console\\Standard\\View\\CustomLinks\\Custom Link Actions\\Contacts Custom Link Actions\\Contacts CLA Google Search.testcase",
+      "error": "Execution failed",
+      "details": "Error doing interaction.  Connection Name: RegressionOrg, cause: [ElementNotInteractableException: element not interactable: [object HTMLInputElement] has no size and location\n  (Session info: chrome=143.0.7499.41)\nBuild info: version: '4.16.1', revision: '9b4c83354e'\nSystem info: os.name: 'Windows Server 2022', os.arch: 'amd64', os.version: '10.0', java.version: '21.0.5'\nDriver info: org.openqa.selenium.chrome.ChromeDriver$ByteBuddy$sMNWUtmW]",
+      "source": "JUnit (37).xml",
+      "webBrowserType": "Chrome",
+      "projectCachePath": "workspace\\Smoke_CC_Windows\\..\\.provarCaches"
+    },
+    {
+      "testcase": "Contacts CLA Yahoo! Weather.testcase",
+      "testcase_path": "tests/Regression\\02 - Classic Console\\Standard\\View\\CustomLinks\\Custom Link Actions\\Contacts Custom Link Actions\\Contacts CLA Yahoo! Weather.testcase",
+      "error": "Execution failed",
+      "details": "[TimeoutException: java.util.concurrent.TimeoutException\nBuild info: version: '4.16.1', revision: '9b4c83354e'\nSystem info: os.name: 'Windows Server 2022', os.arch: 'amd64', os.version: '10.0', java.version: '21.0.5'\nDriver info: org.openqa.selenium.chrome.ChromeDriver$ByteBuddy$sMNWUtmW, TimeoutException]",
+      "source": "JUnit (37).xml",
+      "webBrowserType": "Chrome",
+      "projectCachePath": "workspace\\Smoke_CC_Windows\\..\\.provarCaches"
+    }
+  ]
+}
