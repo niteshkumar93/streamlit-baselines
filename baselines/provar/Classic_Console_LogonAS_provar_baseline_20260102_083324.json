@@ -1,0 +1,37 @@
+{
+  "id": "baseline_20260102_083324",
+  "project": "Classic_Console_LogonAS",
+  "platform": "provar",
+  "label": "Auto",
+  "created_at": "20260102_083324",
+  "failure_count": 3,
+  "failures": [
+    {
+      "testcase": "New.testcase",
+      "testcase_path": "tests/Regression\\02 - Classic Console\\Standard\\Related Lists\\Accounts\\Assets\\New.testcase",
+      "error": "Execution failed",
+      "details": "Assertion Failed.03/08/2024 EqualTo 02/08/2024",
+      "source": "JUnit (35).xml",
+      "webBrowserType": "Chrome",
+      "projectCachePath": "workspace\\Classic_Console_LogonAS\\..\\..\\.provarCaches"
+    },
+    {
+      "testcase": "RL Actions + Assertions.testcase",
+      "testcase_path": "tests/Regression\\02 - Classic Console\\Standard\\Related Lists\\Contacts\\Notes&Attachments\\RL Actions + Assertions.testcase",
+      "error": "Execution failed",
+      "details": "Assertion Failed.03/08/2024 00:25 StartsWith 02/08/2024",
+      "source": "JUnit (35).xml",
+      "webBrowserType": "Chrome",
+      "projectCachePath": "workspace\\Classic_Console_LogonAS\\..\\..\\.provarCaches"
+    },
+    {
+      "testcase": "Opportunity TestMulti- UI Assert.testcase",
+      "testcase_path": "tests/Regression\\02 - Classic Console\\Standard\\View\\UI-Assertions\\MultiSelect Assertion\\Opportunity TestMulti- UI Assert.testcase",
+      "error": "Execution failed",
+      "details": "[UnreachableBrowserException: Error communicating with the remote browser. It may have died.\nBuild info: version: '4.16.1', revision: '9b4c83354e'\nSystem info: os.name: 'Windows Server 2022', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.16.1'\nDriver info: org.openqa.selenium.chrome.ChromeDriver$$EnhancerByCGLIB$$dace278c\nCommand: [05056592f68ec24e2c91bd735dd23204, getWindowHandles []]\nCapabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 127.0.6533.89, chrome: {chromedriverVersion: 126.0.6478.55 (7616ff175414..., userDataDir: C:\\Users\\Administrator\\Docu...}, fedcm:accounts: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(direct), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}\nSession ID: 05056592f68ec24e2c91bd735dd23204, UncheckedIOException: java.net.ConnectException: Connection refused: no further information, ConnectException: Connection refused: no further information]",
+      "source": "JUnit (35).xml",
+      "webBrowserType": "Chrome",
+      "projectCachePath": "workspace\\Classic_Console_LogonAS\\..\\..\\.provarCaches"
+    }
+  ]
+}
