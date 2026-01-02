@@ -1,0 +1,19 @@
+{
+  "id": "baseline_20260102_083425",
+  "project": "CPQ_Lightning",
+  "platform": "provar",
+  "label": "Auto",
+  "created_at": "20260102_083425",
+  "failure_count": 1,
+  "failures": [
+    {
+      "testcase": "01_ChoosePriceBook_Screen.testcase",
+      "testcase_path": "tests/ProvarRegressionSuite\\01- UI Test Cases\\CPQ Latest\\CPQ Custom\\01_ChoosePriceBook_Screen.testcase",
+      "error": "Execution failed",
+      "details": "The control was not found.  Locator: By.xpath: //div[contains(@class,'pbHeader')][1]//input[@type='button' and (@name='sBQQ__EditLines' or @name='sbqq__editlines' or @name='editlines')]",
+      "source": "JUnit (23).xml",
+      "webBrowserType": "Chrome",
+      "projectCachePath": "workspace\\CPQ_Lightning\\..\\..\\.provarCaches"
+    }
+  ]
+}
